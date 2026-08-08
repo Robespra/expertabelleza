@@ -443,7 +443,7 @@ export default function DepiladoraIPLHombre() {
                   <div className="flex gap-2 mt-3 justify-center">
                     {[
                       "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit2.jpg",
-                      "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit4.jpg",
+                      "https://lumeor.fr/wp-content/uploads/2025/08/luxeKMarble.jpg",
                       "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit5-1.jpg",
                     ].map((src, i) => (
                       <Image key={i} width={44} height={44} src={src} alt={`Luxe K vista ${i + 2}`} className="rounded-lg object-cover border-2 border-white shadow-sm" />

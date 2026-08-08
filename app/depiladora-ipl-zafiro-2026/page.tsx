@@ -232,7 +232,7 @@ export default function DepiladoraIPLZafiro() {
                     {[
                       { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit2.jpg", alt: "Luxe K vista 2" },
                       { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit3.jpg", alt: "Luxe K vista 3" },
-                      { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit4.jpg", alt: "Luxe K vista 4" },
+                      { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKMarble.jpg", alt: "Luxe K vista 4" },
                       { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit5-1.jpg", alt: "Luxe K vista 5" },
                     ].map((img) => (
                       <Image key={img.src} width={56} height={56} src={img.src} alt={img.alt} className="rounded-lg object-cover border-2 border-white shadow-sm" />
@@ -390,7 +390,7 @@ export default function DepiladoraIPLZafiro() {
                 width={300}
                 height={160}
                 className="mx-auto rounded-xl"
-                src="https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit4.jpg"
+                src="https://lumeor.fr/wp-content/uploads/2025/08/luxeKMarble.jpg"
                 alt="Pantalla LCD depiladora lumeor Luxe K"
               />
               <div className="mt-6 p-4 bg-blue-50 rounded-lg">
