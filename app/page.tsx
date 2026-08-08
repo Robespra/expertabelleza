@@ -26,7 +26,7 @@ export default function Home() {
                   href="/comparativa-depiladoras-ipl-luz-pulsada-2026"
                   className="bg-[#2ba283] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#238a6b] transition-colors"
                 >
-                  Ver depiladoras IPL
+                  Ver depiladoras de luz pulsada
                 </Link>
                 <Link
                   href="/comparativa-hidropulsadores-dentales-2026"
@@ -153,7 +153,7 @@ export default function Home() {
                   <span className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">Depiladoras IPL 2026</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Depiladoras de Luz Pulsada IPL 2026</h3>
                   <div className="flex items-center text-white/90 text-sm">
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">Top 5</span>
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">Actualizado</span>
@@ -249,13 +249,13 @@ export default function Home() {
             {/* Depiladora IPL Zafiro */}
             <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-green-400">
               <div className="relative h-64 overflow-hidden">
-                <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_header2026.jpg" alt="Comparativa depiladoras IPL zafiro luz pulsada 2026" />
+                <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_header2026.jpg" alt="Comparativa depiladoras de luz pulsada IPL zafiro 2026" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                 <div className="absolute top-4 left-4">
                   <span className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">Depiladoras IPL Zafiro 2026</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Depiladoras de Luz Pulsada IPL Zafiro 2026</h3>
                   <div className="flex items-center text-white/90 text-sm">
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">Top 5</span>
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">Actualizado</span>
@@ -268,7 +268,7 @@ export default function Home() {
                   <div className="flex text-yellow-400 mr-2">{"★★★★★".split("").map((s, i) => <span key={i} className="text-lg">{s}</span>)}</div>
                   <span className="text-sm text-gray-500">Guía 2026</span>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Comparativa de depiladoras IPL con tecnología de enfriamiento por zafiro — las molestias reducidas a la mitad. ¿Qué aparato elegir para la mejor relación calidad/precio?</p>
+                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Comparativa de depiladoras de luz pulsada IPL con tecnología de enfriamiento por zafiro — las molestias reducidas a la mitad. ¿Qué aparato elegir para la mejor relación calidad/precio?</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
                   <div className="text-center"><div className="text-green-600 font-semibold">Zafiro</div><div className="text-gray-500">Tecnología</div></div>
                   <div className="text-center"><div className="text-green-600 font-semibold">139€</div><div className="text-gray-500">Desde</div></div>
@@ -283,13 +283,13 @@ export default function Home() {
             {/* Depiladora IPL Hombre */}
             <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-blue-500">
               <div className="relative h-64 overflow-hidden">
-                <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_men_header2026.jpg" alt="Comparativa depiladoras IPL hombre 2026" />
+                <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_men_header2026.jpg" alt="Comparativa depiladoras de luz pulsada IPL hombre 2026" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                 <div className="absolute top-4 left-4">
                   <span className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">Depiladora IPL Hombre 2026</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Depiladora de Luz Pulsada IPL Hombre 2026</h3>
                   <div className="flex items-center text-white/90 text-sm">
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">Top 5</span>
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">Actualizado</span>
@@ -302,7 +302,7 @@ export default function Home() {
                   <div className="flex text-yellow-400 mr-2">{"★★★★★".split("").map((s, i) => <span key={i} className="text-lg">{s}</span>)}</div>
                   <span className="text-sm text-gray-500">Guía 2026</span>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Pecho, espalda, piernas, contorno de barba — comparativa de las mejores depiladoras IPL para hombre. Dos recomendaciones según tu presupuesto.</p>
+                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Pecho, espalda, piernas, contorno de barba — comparativa de las mejores depiladoras de luz pulsada IPL para hombre. Dos recomendaciones según tu presupuesto.</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
                   <div className="text-center"><div className="text-blue-600 font-semibold">Hombre</div><div className="text-gray-500">Específico</div></div>
                   <div className="text-center"><div className="text-blue-600 font-semibold">89€</div><div className="text-gray-500">Desde</div></div>
@@ -323,7 +323,7 @@ export default function Home() {
                   <span className="bg-[#2ba283] text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">Guía 2025</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
-                  <h3 className="text-2xl font-bold text-white mb-2">Depiladoras IPL 2025</h3>
+                  <h3 className="text-2xl font-bold text-white mb-2">Depiladoras de Luz Pulsada IPL 2025</h3>
                   <div className="flex items-center text-white/90 text-sm">
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">27 probadas</span>
                     <span className="bg-white/20 px-2 py-1 rounded mr-2">6 meses</span>
@@ -537,12 +537,12 @@ export default function Home() {
             <div>
               <h4 className="font-semibold text-white mb-4">Nuestras guías</h4>
               <ul className="space-y-2">
-                <li><Link href="/comparativa-depiladoras-ipl-luz-pulsada-2025" className="hover:text-[#2ba283] transition-colors">Depiladoras IPL 2025</Link></li>
-                <li><Link href="/comparativa-depiladoras-ipl-luz-pulsada-2026" className="hover:text-yellow-400 transition-colors">Depiladoras IPL 2026</Link></li>
+                <li><Link href="/comparativa-depiladoras-ipl-luz-pulsada-2025" className="hover:text-[#2ba283] transition-colors">Depiladoras de Luz Pulsada 2025</Link></li>
+                <li><Link href="/comparativa-depiladoras-ipl-luz-pulsada-2026" className="hover:text-yellow-400 transition-colors">Depiladoras de Luz Pulsada 2026</Link></li>
                 <li><Link href="/comparativa-hidropulsadores-dentales-2025" className="hover:text-[#2ba283] transition-colors">Hidropulsadores dentales 2025</Link></li>
                 <li><Link href="/comparativa-hidropulsadores-dentales-2026" className="hover:text-cyan-400 transition-colors">Hidropulsadores dentales 2026</Link></li>
-                <li><Link href="/depiladora-ipl-zafiro-2026" className="hover:text-green-400 transition-colors">Depiladoras IPL Zafiro 2026</Link></li>
-                <li><Link href="/depiladora-ipl-hombre-2026" className="hover:text-blue-400 transition-colors">Depiladora IPL Hombre 2026</Link></li>
+                <li><Link href="/depiladora-ipl-zafiro-2026" className="hover:text-green-400 transition-colors">Depiladoras de Luz Pulsada Zafiro 2026</Link></li>
+                <li><Link href="/depiladora-ipl-hombre-2026" className="hover:text-blue-400 transition-colors">Depiladora de Luz Pulsada Hombre 2026</Link></li>
               </ul>
             </div>
             <div>

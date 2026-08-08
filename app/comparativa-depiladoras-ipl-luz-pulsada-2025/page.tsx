@@ -38,7 +38,7 @@ export default function DepiladoraIPL2025() {
           <div className="relative mb-8">
             <Image
               src="/images/comparatif_epilateurs_header.jpg"
-              alt="Comparativa de las mejores depiladoras IPL 2025"
+              alt="Comparativa de las mejores depiladoras de luz pulsada IPL 2025"
               width={800}
               height={400}
               className="w-full h-64 md:h-96 object-cover rounded-2xl"
@@ -51,7 +51,7 @@ export default function DepiladoraIPL2025() {
           </div>
 
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900 mb-6">
-            <span className="block">Mejores Depiladoras IPL</span>
+            <span className="block">Mejores Depiladoras de Luz Pulsada IPL</span>
             <span className="text-green-600">2025</span>
           </h1>
 
@@ -107,7 +107,7 @@ export default function DepiladoraIPL2025() {
             <div className="flex items-center space-x-4">
               <Image
                 src="/images/PulseProIISolo.jpg"
-                alt="Luméor Pulse Pro II - Depiladora IPL"
+                alt="Luméor Pulse Pro II - Depiladora de Luz Pulsada IPL"
                 width={120}
                 height={160}
                 className="rounded-xl"

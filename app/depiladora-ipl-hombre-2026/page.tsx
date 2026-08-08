@@ -33,9 +33,9 @@ export default function DepiladoraIPLHombre() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          headline: "Mejor depiladora IPL para hombre 2026: comparativa completa",
+          headline: "Mejor depiladora de luz pulsada IPL para hombre 2026: comparativa completa",
           description:
-            "Comparativa de las mejores depiladoras IPL para hombre en 2026 — pecho, espalda, piernas. ¿Qué dispositivos funcionan de verdad?",
+            "Comparativa de las mejores depiladoras de luz pulsada IPL para hombre en 2026 — pecho, espalda, piernas. ¿Qué dispositivos funcionan de verdad?",
           image: "https://expertabelleza.es/images/comparatif_epilateurs_men_header2026.jpg",
           datePublished: "2026-04-12T09:00:00+02:00",
           dateModified: "2026-04-12T09:00:00+02:00",
@@ -146,13 +146,13 @@ export default function DepiladoraIPLHombre() {
           <div className="flex items-center text-sm text-gray-500 mb-4">
             <a href="/" className="hover:text-green-600">Inicio</a>
             <span className="mx-2">›</span>
-            <span>Depiladora IPL para hombre</span>
+            <span>Depiladora de luz pulsada IPL para hombre</span>
           </div>
 
           <div className="relative mb-8">
             <Image
               src="/images/comparatif_epilateurs_men_header2026.jpg"
-              alt="Comparativa mejores depiladoras IPL para hombre 2026"
+              alt="Comparativa mejores depiladoras de luz pulsada IPL para hombre 2026"
               width={800}
               height={400}
               className="w-full h-64 md:h-96 object-cover rounded-2xl"
@@ -166,7 +166,7 @@ export default function DepiladoraIPLHombre() {
           </div>
 
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900 mb-4">
-            Mejor depiladora IPL para hombre 2026:{" "}
+            Mejor depiladora de luz pulsada IPL para hombre 2026:{" "}
             <span className="text-green-600">comparativa completa</span>
           </h1>
 
@@ -206,7 +206,7 @@ export default function DepiladoraIPLHombre() {
           <div className="bg-gray-50 border-l-4 border-gray-400 rounded-r-xl p-6 mb-8">
             <p className="text-gray-700 leading-relaxed mb-3">
               La depilación masculina con luz pulsada ya no es un fenómeno minoritario. Una parte
-              creciente de las ventas de depiladoras IPL en España corresponde a hombres — principalmente
+              creciente de las ventas de depiladoras de luz pulsada en España corresponde a hombres — principalmente
               para el pecho, la espalda y las piernas. La razón es simple: afeitarse o depilarse manualmente
               cada semana lleva mucho tiempo, y las sesiones láser en centro de estética cuestan entre 800 y 1.200€
               para un protocolo completo.
@@ -282,7 +282,7 @@ export default function DepiladoraIPLHombre() {
 
         <section id="tabla" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
-            Tabla comparativa — depiladoras IPL para hombre 2026
+            Tabla comparativa — depiladoras de luz pulsada IPL para hombre 2026
           </h2>
           <p className="text-gray-500 text-sm mb-6">
             5 dispositivos probados — del más asequible al más premium.
@@ -437,7 +437,7 @@ export default function DepiladoraIPLHombre() {
                     width={160}
                     height={220}
                     src="https://lumeor.fr/wp-content/uploads/2025/08/luxek.webp"
-                    alt="Luméor Luxe K depiladora IPL hombre"
+                    alt="Luméor Luxe K depiladora de luz pulsada IPL hombre"
                     className="rounded-xl object-contain"
                   />
                   <div className="flex gap-2 mt-3 justify-center">
@@ -539,7 +539,7 @@ export default function DepiladoraIPLHombre() {
                     width={160}
                     height={220}
                     src="https://lumeor.fr/wp-content/uploads/2024/12/PulseProNoNew.jpg"
-                    alt="Luméor Pulse Pro II depiladora IPL hombre"
+                    alt="Luméor Pulse Pro II depiladora de luz pulsada IPL hombre"
                     className="rounded-xl object-contain"
                   />
                   <div className="flex gap-2 mt-3 justify-center">
@@ -622,7 +622,7 @@ export default function DepiladoraIPLHombre() {
                 <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">8/10</span>
               </div>
               <div className="text-center mb-4">
-                <Image width={160} height={200} className="mx-auto rounded-lg object-contain" src="/images/Ulike_epilateur4.jpg" alt="Ulike Air 3 depiladora IPL hombre" />
+                <Image width={160} height={200} className="mx-auto rounded-lg object-contain" src="/images/Ulike_epilateur4.jpg" alt="Ulike Air 3 depiladora de luz pulsada IPL hombre" />
               </div>
               <p className="text-gray-600 mb-4 text-sm">
                 Tecnología de enfriamiento por zafiro idéntica al Luxe K, resultados comparables. Potencia
@@ -643,7 +643,7 @@ export default function DepiladoraIPLHombre() {
                 <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">7/10</span>
               </div>
               <div className="text-center mb-4">
-                <Image width={160} height={200} className="mx-auto rounded-lg object-contain" src="/images/braun_epilateur2.jpg" alt="Braun Silk Expert Pro 5 depiladora IPL" />
+                <Image width={160} height={200} className="mx-auto rounded-lg object-contain" src="/images/braun_epilateur2.jpg" alt="Braun Silk Expert Pro 5 depiladora de luz pulsada IPL" />
               </div>
               <p className="text-gray-600 mb-4 text-sm">
                 Referencia alemana con sensor SensoAdapt automático. Sólido y fiable. Pero sin
@@ -664,7 +664,7 @@ export default function DepiladoraIPLHombre() {
                 <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">7/10</span>
               </div>
               <div className="flex flex-col sm:flex-row gap-6 items-center">
-                <Image width={140} height={180} className="mx-auto rounded-lg object-contain" src="/images/philips_epilateur_3.webp" alt="Philips Lumea 9000 depiladora IPL" />
+                <Image width={140} height={180} className="mx-auto rounded-lg object-contain" src="/images/philips_epilateur_3.webp" alt="Philips Lumea 9000 depiladora de luz pulsada IPL" />
                 <div className="flex-1">
                   <p className="text-gray-600 mb-4 text-sm">
                     Gama alta con aplicación móvil y sensor IA de detección de piel.
@@ -750,7 +750,7 @@ export default function DepiladoraIPLHombre() {
 
         <section id="faq" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Preguntas frecuentes — depiladora IPL para hombre
+            Preguntas frecuentes — depiladora de luz pulsada IPL para hombre
           </h2>
           <div className="space-y-4">
             {[
@@ -820,7 +820,7 @@ export default function DepiladoraIPLHombre() {
         <div className="text-center text-sm text-gray-400 pb-4">
           <Link href="/" className="hover:text-green-600">Inicio</Link>
           <span className="mx-2">›</span>
-          <span>Mejor depiladora IPL para hombre 2026</span>
+          <span>Mejor depiladora de luz pulsada IPL para hombre 2026</span>
         </div>
       </article>
     </main>

@@ -31,7 +31,7 @@ export default function DepiladoraIPLZafiro() {
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Article",
-          headline: "Mejor depiladora IPL con zafiro 2026: comparativa completa",
+          headline: "Mejor depiladora de luz pulsada IPL con zafiro 2026: comparativa completa",
           description: "Comparativa de las mejores depiladoras de luz pulsada IPL con tecnología de enfriamiento por zafiro en 2026.",
           image: "https://expertabelleza.es/images/comparatif_epilateurs_header2026.jpg",
           datePublished: "2026-04-12T09:00:00+02:00",
@@ -56,7 +56,7 @@ export default function DepiladoraIPLZafiro() {
           mainEntity: [
             {
               "@type": "Question",
-              name: "¿Qué es la tecnología de enfriamiento por zafiro en una depiladora IPL?",
+              name: "¿Qué es la tecnología de enfriamiento por zafiro en una depiladora de luz pulsada IPL?",
               acceptedAnswer: { "@type": "Answer", text: "El enfriamiento por zafiro es una tecnología que enfría la piel en tiempo real durante cada destello de luz pulsada. La ventana de cristal de zafiro desciende a aproximadamente 5°C, reduciendo de forma significativa las molestias y el enrojecimiento tras la sesión." },
             },
             {
@@ -66,7 +66,7 @@ export default function DepiladoraIPLZafiro() {
             },
             {
               "@type": "Question",
-              name: "¿En cuántas semanas se ven resultados con una depiladora IPL de zafiro?",
+              name: "¿En cuántas semanas se ven resultados con una depiladora de luz pulsada IPL de zafiro?",
               acceptedAnswer: { "@type": "Answer", text: "Con el Luméor Luxe K a 12–14 J/cm², los primeros resultados visibles aparecen a partir de 3 a 4 semanas. Un resultado duradero requiere generalmente entre 8 y 12 sesiones semanales." },
             },
             {
@@ -120,7 +120,7 @@ export default function DepiladoraIPLZafiro() {
           <div className="flex items-center text-sm text-gray-500 mb-4">
             <a href="/" className="hover:text-green-600">Inicio</a>
             <span className="mx-2">›</span>
-            <span>Depiladoras IPL de luz pulsada con zafiro</span>
+            <span>Depiladoras de luz pulsada IPL con zafiro</span>
           </div>
 
           <div className="relative mb-8">
@@ -140,7 +140,7 @@ export default function DepiladoraIPLZafiro() {
           </div>
 
           <h1 className="text-3xl md:text-5xl font-bold leading-tight text-gray-900 mb-4">
-            Mejor depiladora IPL con zafiro 2026:{" "}
+            Mejor depiladora de luz pulsada IPL con zafiro 2026:{" "}
             <span className="text-green-600">comparativa completa</span>
           </h1>
 
@@ -181,7 +181,7 @@ export default function DepiladoraIPLZafiro() {
 
           <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-6 mb-8">
             <p className="text-gray-700 leading-relaxed mb-3">
-              Llevo 6 años usando depiladoras IPL. Y puedo deciros algo: la mayoría de los
+              Llevo 6 años usando depiladoras de luz pulsada. Y puedo deciros algo: la mayoría de los
               dispositivos por debajo de 200€ que he probado me han decepcionado — no porque la
               luz pulsada no funcione, sino porque se calientan, a veces generan molestias, y
               acabas abandonando el protocolo tras 3 sesiones.
@@ -226,7 +226,7 @@ export default function DepiladoraIPLZafiro() {
                     height={380}
                     className="mx-auto rounded-xl transition-transform duration-300 hover:scale-105 mb-3"
                     src="https://lumeor.fr/wp-content/uploads/2025/08/luxek.webp"
-                    alt="Luméor Luxe K depiladora IPL de luz pulsada con zafiro"
+                    alt="Luméor Luxe K depiladora de luz pulsada IPL con zafiro"
                   />
                   <div className="flex gap-2 justify-center flex-wrap">
                     {[
@@ -299,7 +299,7 @@ export default function DepiladoraIPLZafiro() {
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del Luméor Luxe K</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               El Luméor Luxe K está pensado para quienes están cansadas de dispositivos de gama
-              baja que decepcionan — o que dudan entre una depiladora IPL doméstica y una sesión
+              baja que decepcionan — o que dudan entre una depiladora de luz pulsada doméstica y una sesión
               láser a 200€. Integra el <strong>mismo enfriamiento por zafiro activo que el Ulike Air 3</strong>,
               a mitad de precio, y con casi el doble de destellos.
             </p>
@@ -417,7 +417,7 @@ export default function DepiladoraIPLZafiro() {
         </section>
 
         <section id="analisis" className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Los otros modelos de depiladoras IPL del mercado</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Los otros modelos de depiladoras de luz pulsada del mercado</h2>
 
           <div className="grid lg:grid-cols-2 gap-8">
 
@@ -428,7 +428,7 @@ export default function DepiladoraIPLZafiro() {
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-bold">#2</span>
               </div>
               <div className="text-center mb-4">
-                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/Ulike_epilateur4.jpg" alt="Ulike Air 3 Air 10 depiladora IPL zafiro Ice-Cool" />
+                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/Ulike_epilateur4.jpg" alt="Ulike Air 3 Air 10 depiladora de luz pulsada zafiro Ice-Cool" />
               </div>
               <div className="flex items-center mb-3">
                 {[1,2,3].map((s) => <span key={s} className="text-yellow-400">★</span>)}
@@ -512,7 +512,7 @@ export default function DepiladoraIPLZafiro() {
                 <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-bold">#3</span>
               </div>
               <div className="text-center mb-4">
-                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/bodysiam_elite_epilateur.jpg" alt="Bodysiam Elite depiladora IPL de luz pulsada" />
+                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/bodysiam_elite_epilateur.jpg" alt="Bodysiam Elite depiladora de luz pulsada IPL" />
               </div>
               <div className="flex items-center mb-3">
                 {[1,2,3].map((s) => <span key={s} className="text-yellow-400">★</span>)}
@@ -594,7 +594,7 @@ export default function DepiladoraIPLZafiro() {
                 <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-bold">#4</span>
               </div>
               <div className="text-center mb-4">
-                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/ohmyskin_epilateur.jpg" alt="OhMySkin depiladora IPL premium de luz pulsada" />
+                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/ohmyskin_epilateur.jpg" alt="OhMySkin depiladora de luz pulsada IPL premium" />
               </div>
               <div className="flex items-center mb-3">
                 {[1,2,3].map((s) => <span key={s} className="text-yellow-400">★</span>)}
@@ -760,7 +760,7 @@ export default function DepiladoraIPLZafiro() {
                 <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-bold">#6</span>
               </div>
               <div className="text-center mb-4">
-                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/braun_epilateur2.jpg" alt="Braun Silk Expert Pro 5 depiladora IPL SensoAdapt" />
+                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/braun_epilateur2.jpg" alt="Braun Silk Expert Pro 5 depiladora de luz pulsada IPL SensoAdapt" />
               </div>
               <div className="flex items-center mb-3">
                 {[1,2,3,4].map((s) => <span key={s} className="text-yellow-400">★</span>)}
@@ -843,7 +843,7 @@ export default function DepiladoraIPLZafiro() {
                 <span className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">#7</span>
               </div>
               <div className="text-center mb-4">
-                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/philips_epilateur_3.webp" alt="Philips Lumea 9000 depiladora IPL aplicación SmartSkin" />
+                <Image width={180} height={220} className="mx-auto rounded-lg object-contain" src="/images/philips_epilateur_3.webp" alt="Philips Lumea 9000 depiladora de luz pulsada IPL aplicación SmartSkin" />
               </div>
               <div className="flex items-center mb-3">
                 {[1,2,3,4].map((s) => <span key={s} className="text-yellow-400">★</span>)}
@@ -923,7 +923,7 @@ export default function DepiladoraIPLZafiro() {
         </section>
 
         <section id="tabla" className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">Tabla comparativa — depiladoras IPL de luz pulsada 2026</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">Tabla comparativa — depiladoras de luz pulsada IPL 2026</h2>
           <p className="text-gray-500 text-sm mb-6">Solo se recomiendan los dispositivos con enfriamiento por zafiro activo.</p>
 
           <div className="overflow-x-auto rounded-2xl shadow-lg">
@@ -1019,7 +1019,7 @@ export default function DepiladoraIPLZafiro() {
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Por qué el enfriamiento por zafiro lo cambia todo</h2>
           <div className="bg-blue-50 rounded-2xl p-8">
             <p className="text-gray-700 leading-relaxed mb-4">
-              Cuando una depiladora IPL emite un destello de luz pulsada, actúa sobre la raíz
+              Cuando una depiladora de luz pulsada IPL emite un destello, actúa sobre la raíz
               del vello apuntando a la melanina. Este proceso es eficaz — pero también genera
               calor percibido en la superficie de la piel, responsable de la sensación de
               quemazón que muchas temen.
@@ -1107,7 +1107,7 @@ export default function DepiladoraIPLZafiro() {
           <div className="space-y-4">
             {[
               {
-                q: "¿Qué es la tecnología de enfriamiento por zafiro en una depiladora IPL?",
+                q: "¿Qué es la tecnología de enfriamiento por zafiro en una depiladora de luz pulsada IPL?",
                 a: "El enfriamiento por zafiro es una tecnología que enfría activamente la piel durante cada destello de luz pulsada. La ventana de cristal de zafiro permanece a aproximadamente 5°C en contacto con la piel, reduciendo de forma significativa las molestias. Las pieles sensibles toleran la IPL sin incomodidad, lo que favorece la regularidad del protocolo.",
               },
               {
@@ -1115,7 +1115,7 @@ export default function DepiladoraIPLZafiro() {
                 a: "La IPL (Luz Pulsada Intensa) emite un amplio espectro de longitudes de onda para actuar sobre la melanina del vello, mientras que el láser emite una longitud de onda única muy concentrada. La IPL cubre una mayor superficie en menos tiempo, ideal para uso doméstico. El láser es más preciso pero está reservado a profesionales a 150–300€ por sesión.",
               },
               {
-                q: "¿En cuántas semanas se ven resultados con una depiladora IPL de zafiro?",
+                q: "¿En cuántas semanas se ven resultados con una depiladora de luz pulsada IPL de zafiro?",
                 a: "Con el Luméor Luxe K a 12–14 J/cm², los primeros resultados visibles aparecen a partir de 3 a 4 semanas con sesiones semanales. Un resultado duradero y completo requiere generalmente entre 8 y 12 sesiones.",
               },
               {
@@ -1195,7 +1195,7 @@ export default function DepiladoraIPLZafiro() {
         <div className="text-center text-sm text-gray-400 pb-4">
           <Link href="/" className="hover:text-green-600">Inicio</Link>
           <span className="mx-2">›</span>
-          <span>Mejor depiladora IPL con zafiro 2026</span>
+          <span>Mejor depiladora de luz pulsada IPL con zafiro 2026</span>
         </div>
       </article>
     </main>

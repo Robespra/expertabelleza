@@ -24,7 +24,7 @@ export default function DepiladoreIPLComparativa() {
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "Top 5 Depiladoras de Luz Pulsada IPL en 2026 - Comparativa Exclusiva",
-          "description": "Comparativa detallada de las mejores depiladoras IPL probadas por nuestro equipo de expertas en 2026.",
+          "description": "Comparativa detallada de las mejores depiladoras de luz pulsada IPL probadas por nuestro equipo de expertas en 2026.",
           "image": "https://expertabelleza.es/images/comparatif_epilateurs_header2026.jpg",
           "datePublished": "2026-01-06T09:00:00+01:00",
           "dateModified": "2026-01-06T09:00:00+01:00",
@@ -125,7 +125,7 @@ export default function DepiladoreIPLComparativa() {
           </div>
 
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900 mb-6">
-            <span className="block">Mejores Depiladoras IPL</span>
+            <span className="block">Mejores Depiladoras de Luz Pulsada IPL</span>
             <span className="text-green-600">2026</span>
           </h1>
 
@@ -169,7 +169,7 @@ export default function DepiladoreIPLComparativa() {
         {/* Top 5 Products */}
         <section id="top-5" className="mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-12 text-center">
-            Top 5 de las Mejores Depiladoras IPL 2026
+            Top 5 de las Mejores Depiladoras de Luz Pulsada IPL 2026
           </h2>
 
           {/* #1 Product - Luméor Pulse Pro II */}
@@ -412,7 +412,7 @@ export default function DepiladoreIPLComparativa() {
                   height={250}
                   className="mx-auto rounded-lg object-contain"
                   src="/images/solippy_loop_epilateur.png"
-                  alt="Loop by Solippy depiladora IPL de luz pulsada"
+                  alt="Loop by Solippy depiladora de luz pulsada IPL"
                 />
               </div>
               <div className="flex items-center mb-3">
@@ -520,7 +520,7 @@ export default function DepiladoreIPLComparativa() {
                   height={250}
                   className="mx-auto rounded-lg object-contain"
                   src="/images/bodysiam_elite_epilateur_2026.jpg"
-                  alt="Bodysiam Elite depiladora IPL de luz pulsada premium"
+                  alt="Bodysiam Elite depiladora de luz pulsada IPL premium"
                 />
               </div>
               <div className="flex items-center mb-3">
@@ -627,7 +627,7 @@ export default function DepiladoreIPLComparativa() {
                   height={250}
                   className="mx-auto rounded-lg"
                   src="/images/braun_epilateur2.jpg"
-                  alt="Braun Silk Expert Pro 5 - Depiladora IPL 2026 con tecnología SensoAdapt"
+                  alt="Braun Silk Expert Pro 5 - Depiladora de Luz Pulsada IPL 2026 con tecnología SensoAdapt"
                 />
               </div>
               <div className="flex items-center mb-3">
@@ -1026,7 +1026,7 @@ export default function DepiladoreIPLComparativa() {
                   <ul className="space-y-3">
                     {[
                       "Eficacia muy limitada : Nota de 3,0/5 con resultados prácticamente inexistentes sobre el vello.",
-                      "Tecnología obsoleta : Sistema desfasado que no puede competir con las depiladoras IPL modernas.",
+                      "Tecnología obsoleta : Sistema desfasado que no puede competir con las depiladoras de luz pulsada modernas.",
                       "Zonas restringidas : Solo para el rostro, no utilizable en el cuerpo entero.",
                       "Resultados tardíos : Más de 16 semanas para cambios mínimos.",
                       "Duración de la sesión : 25 minutos por sesión frente a 5-10 minutos del Luméor.",
