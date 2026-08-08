@@ -94,7 +94,7 @@ export default function DepiladoraIPLHombre() {
               name: "¿La IPL duele para un hombre?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "El vello masculino es más grueso, por lo que la IPL puede generar más calor y molestias que con vello fino. Un dispositivo con enfriamiento por zafiro activo, como el Luméor Luxe K, neutraliza este calor en tiempo real — la diferencia es significativa.",
+                text: "El vello masculino es más grueso, por lo que la IPL puede generar más calor y molestias que con vello fino. Un dispositivo con enfriamiento por zafiro activo, como el lumeor Luxe K, neutraliza este calor en tiempo real — la diferencia es significativa.",
               },
             },
             {
@@ -102,7 +102,7 @@ export default function DepiladoraIPLHombre() {
               name: "¿Puedo usar la depiladora de mi pareja?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Técnicamente sí, los dispositivos IPL no están diseñados por género. Pero los dispositivos sin zafiro pueden resultar incómodos sobre el vello grueso masculino. Si compartes el aparato, el Luméor Luxe K con enfriamiento por zafiro se adaptará perfectamente a ambos.",
+                text: "Técnicamente sí, los dispositivos IPL no están diseñados por género. Pero los dispositivos sin zafiro pueden resultar incómodos sobre el vello grueso masculino. Si compartes el aparato, el lumeor Luxe K con enfriamiento por zafiro se adaptará perfectamente a ambos.",
               },
             },
           ],
@@ -304,7 +304,7 @@ export default function DepiladoraIPLHombre() {
               <tbody>
                 <tr className="bg-blue-50 border-2 border-blue-400">
                   <td className="px-4 py-5">
-                    <div className="font-bold text-gray-900">Luméor Pulse Pro II</div>
+                    <div className="font-bold text-gray-900">lumeor Pulse Pro II</div>
                     <span className="inline-block mt-1 bg-blue-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
                       💰 Mejor precio para empezar
                     </span>
@@ -318,7 +318,7 @@ export default function DepiladoraIPLHombre() {
                 </tr>
                 <tr className="bg-green-50 border-2 border-green-500">
                   <td className="px-4 py-5">
-                    <div className="font-bold text-gray-900">Luméor Luxe K</div>
+                    <div className="font-bold text-gray-900">lumeor Luxe K</div>
                     <span className="inline-block mt-1 bg-green-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
                       ⭐ Mejor elección para hombre
                     </span>
@@ -390,7 +390,7 @@ export default function DepiladoraIPLHombre() {
               en superficie queda protegida.
             </p>
             <p className="text-gray-700 leading-relaxed">
-              Por eso el <strong>Luméor Luxe K a 139€ es nuestra recomendación principal para
+              Por eso el <strong>lumeor Luxe K a 139€ es nuestra recomendación principal para
               los hombres</strong> — y no solo por razones de precio.
               El Ulike Air 3 propone la misma tecnología de zafiro, pero a 260€. El Luxe K ofrece
               el mismo confort por 121€ menos.
@@ -423,7 +423,7 @@ export default function DepiladoraIPLHombre() {
             </div>
 
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3 pr-36">
-              <h3 className="text-2xl font-bold text-gray-900">Luméor Luxe K — depilación IPL para hombre</h3>
+              <h3 className="text-2xl font-bold text-gray-900">lumeor Luxe K — depilación IPL para hombre</h3>
               <div className="flex items-center gap-3">
                 <span className="text-2xl font-bold text-green-700">139€</span>
                 <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">9,5/10</span>
@@ -437,7 +437,7 @@ export default function DepiladoraIPLHombre() {
                     width={160}
                     height={220}
                     src="https://lumeor.fr/wp-content/uploads/2025/08/luxek.webp"
-                    alt="Luméor Luxe K depiladora de luz pulsada IPL hombre"
+                    alt="lumeor Luxe K depiladora de luz pulsada IPL hombre"
                     className="rounded-xl object-contain"
                   />
                   <div className="flex gap-2 mt-3 justify-center">
@@ -512,7 +512,7 @@ export default function DepiladoraIPLHombre() {
                   style={{ backgroundColor: "#FBBF24", color: "#000000" }}
                   onClick={() => trackClick("luxek_analysis_hombre")}
                 >
-                  Ver el Luméor Luxe K — 139€ · Envío gratuito
+                  Ver el lumeor Luxe K — 139€ · Envío gratuito
                 </a>
               </div>
             </div>
@@ -525,7 +525,7 @@ export default function DepiladoraIPLHombre() {
             </div>
 
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3 pr-36">
-              <h3 className="text-2xl font-bold text-gray-900">Luméor Pulse Pro II — depilación de luz pulsada para hombre</h3>
+              <h3 className="text-2xl font-bold text-gray-900">lumeor Pulse Pro II — depilación de luz pulsada para hombre</h3>
               <div className="flex items-center gap-3">
                 <span className="text-2xl font-bold text-blue-700">89€</span>
                 <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">8/10</span>
@@ -539,7 +539,7 @@ export default function DepiladoraIPLHombre() {
                     width={160}
                     height={220}
                     src="https://lumeor.fr/wp-content/uploads/2024/12/PulseProNoNew.jpg"
-                    alt="Luméor Pulse Pro II depiladora de luz pulsada IPL hombre"
+                    alt="lumeor Pulse Pro II depiladora de luz pulsada IPL hombre"
                     className="rounded-xl object-contain"
                   />
                   <div className="flex gap-2 mt-3 justify-center">
@@ -608,7 +608,7 @@ export default function DepiladoraIPLHombre() {
                   style={{ backgroundColor: "#3B82F6", color: "#ffffff" }}
                   onClick={() => trackClick("pulsepro_analysis_hombre")}
                 >
-                  Ver el Luméor Pulse Pro II — 89€
+                  Ver el lumeor Pulse Pro II — 89€
                 </a>
               </div>
             </div>
@@ -697,7 +697,7 @@ export default function DepiladoraIPLHombre() {
               o la espalda. A sus precios, es difícil recomendarlos.
             </p>
             <p className="text-gray-300 leading-relaxed mb-6">
-              En 2026, dos dispositivos Luméor destacan claramente para los hombres:{" "}
+              En 2026, dos dispositivos lumeor destacan claramente para los hombres:{" "}
               el <strong>Pulse Pro II a 89€</strong> para quienes quieren probar la IPL sin gran
               compromiso, y el <strong>Luxe K a 139€</strong> para quienes quieren
               el confort del zafiro — imprescindible en el vello grueso masculino — a un precio
@@ -727,7 +727,7 @@ export default function DepiladoraIPLHombre() {
                 style={{ backgroundColor: "#3B82F6", color: "#ffffff" }}
                 onClick={() => trackClick("pulsepro_verdict_hombre")}
               >
-                Luméor Pulse Pro II<br />
+                lumeor Pulse Pro II<br />
                 <span className="text-sm font-normal opacity-90">89€ — Mejor precio</span>
               </a>
               <a
@@ -738,7 +738,7 @@ export default function DepiladoraIPLHombre() {
                 style={{ backgroundColor: "#FBBF24", color: "#000000" }}
                 onClick={() => trackClick("luxek_verdict_hombre")}
               >
-                Luméor Luxe K ⭐<br />
+                lumeor Luxe K ⭐<br />
                 <span className="text-sm font-normal opacity-80">139€ — Recomendado para hombres</span>
               </a>
             </div>
@@ -772,11 +772,11 @@ export default function DepiladoraIPLHombre() {
               },
               {
                 q: "¿La IPL duele para un hombre?",
-                a: "Sin enfriamiento, la IPL puede resultar incómoda en zonas de vello grueso (pecho, espalda). Con un dispositivo de zafiro activo como el Luméor Luxe K, la sensación se reduce notablemente — la placa fría neutraliza el calor generado por el destello en tiempo real. La mayoría de los usuarios lo describen como un ligero cosquilleo.",
+                a: "Sin enfriamiento, la IPL puede resultar incómoda en zonas de vello grueso (pecho, espalda). Con un dispositivo de zafiro activo como el lumeor Luxe K, la sensación se reduce notablemente — la placa fría neutraliza el calor generado por el destello en tiempo real. La mayoría de los usuarios lo describen como un ligero cosquilleo.",
               },
               {
                 q: "¿Puedo usar la depiladora de mi pareja?",
-                a: "Técnicamente sí, los dispositivos IPL no están diseñados por género. Pero si el aparato no tiene enfriamiento por zafiro, las sesiones serán menos cómodas sobre el vello grueso masculino. Si compartes el dispositivo, el Luméor Luxe K con zafiro se adaptará perfectamente a los dos.",
+                a: "Técnicamente sí, los dispositivos IPL no están diseñados por género. Pero si el aparato no tiene enfriamiento por zafiro, las sesiones serán menos cómodas sobre el vello grueso masculino. Si compartes el dispositivo, el lumeor Luxe K con zafiro se adaptará perfectamente a los dos.",
               },
             ].map((item) => (
               <details key={item.q} className="group bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
@@ -801,7 +801,7 @@ export default function DepiladoraIPLHombre() {
             style={{ backgroundColor: "#3B82F6", color: "#ffffff" }}
             onClick={() => trackClick("pulsepro_footer_hombre")}
           >
-            Luméor Pulse Pro II<br />
+            lumeor Pulse Pro II<br />
             <span className="text-sm font-normal opacity-90">89€ · Envío gratuito</span>
           </a>
           <a
@@ -812,7 +812,7 @@ export default function DepiladoraIPLHombre() {
             style={{ backgroundColor: "#FBBF24", color: "#000000" }}
             onClick={() => trackClick("luxek_footer_hombre")}
           >
-            Luméor Luxe K ⭐<br />
+            lumeor Luxe K ⭐<br />
             <span className="text-sm font-normal opacity-70">139€ · Recomendado para hombres</span>
           </a>
         </div>

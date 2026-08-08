@@ -15,7 +15,7 @@ declare global {
 
 export default function HidropulsadorDentalComparativa() {
   const lumeorBaseUrl = "https://lumeor.fr/produit/jet-dentaire-hydropulseur-lyrax-pro/";
-  const decoratedLumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=hidropulsador-dental-review`;
+  const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=hidropulsador-dental-review`;
 
   return (
     <main className="bg-gray-100 min-h-screen">
@@ -200,7 +200,7 @@ export default function HidropulsadorDentalComparativa() {
 
           {/* #1 Product - LyraX Pro */}
           <a
-            href={decoratedLumeorUrl}
+            href={decoratedlumeorUrl}
             className="block bg-white rounded-2xl shadow-xl p-8 mb-8 border-4 border-blue-600 relative overflow-hidden hover:shadow-2xl hover:border-blue-700 transition-all duration-300"
           >
             <div className="absolute top-0 right-0 bg-blue-600 text-white px-6 py-2 rounded-bl-2xl">
@@ -222,7 +222,7 @@ export default function HidropulsadorDentalComparativa() {
               {/* Content second on mobile, first on desktop */}
               <div className="order-2 md:order-1 md:col-span-3">
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 pr-32">
-                  luméor LyraX Pro Hidropulsador Dental
+                  lumeor LyraX Pro Hidropulsador Dental
                 </h3>
 
                 <div className="flex items-center mb-6">
@@ -284,7 +284,7 @@ export default function HidropulsadorDentalComparativa() {
 
           {/* Detailed Analysis Section for #1 */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del luméor LyraX Pro Hidropulsador Dental</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del lumeor LyraX Pro Hidropulsador Dental</h3>
 
             <div className="mb-6">
               <p className="text-gray-700 leading-relaxed mb-4">
@@ -373,7 +373,7 @@ export default function HidropulsadorDentalComparativa() {
             {/* Official Site Link */}
             <div className="text-center mt-6">
               <a
-                href={decoratedLumeorUrl}
+                href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors shadow-lg hover:shadow-xl"
@@ -854,7 +854,7 @@ export default function HidropulsadorDentalComparativa() {
                         <span className="text-blue-600 font-bold mr-2">🏆</span>
                         <div>
                           <div className="font-bold">
-                            <a href={decoratedLumeorUrl} className="text-blue-600 hover:underline">
+                            <a href={decoratedlumeorUrl} className="text-blue-600 hover:underline">
                               LyraX Pro
                             </a>
                           </div>
@@ -1163,7 +1163,7 @@ export default function HidropulsadorDentalComparativa() {
               </div>
 
               <a
-                href={decoratedLumeorUrl}
+                href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"

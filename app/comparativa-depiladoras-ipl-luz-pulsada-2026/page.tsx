@@ -14,7 +14,7 @@ declare global {
 
 export default function DepiladoreIPLComparativa() {
   const lumeorBaseUrl = "https://lumeor.fr/produit/epilateur-lumiere-pulsee-permanent-pulse-pro-ii/";
-  const decoratedLumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=depiladora-ipl-review`;
+  const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=depiladora-ipl-review`;
 
   return (
     <main className="bg-gray-100 min-h-screen">
@@ -172,9 +172,9 @@ export default function DepiladoreIPLComparativa() {
             Top 5 de las Mejores Depiladoras de Luz Pulsada IPL 2026
           </h2>
 
-          {/* #1 Product - Luméor Pulse Pro II */}
+          {/* #1 Product - lumeor Pulse Pro II */}
           <a
-            href={decoratedLumeorUrl}
+            href={decoratedlumeorUrl}
             className="block bg-white rounded-2xl shadow-xl p-2 sm:!p-6 border-4 relative overflow-hidden hover:shadow-2xl transition-all duration-300"
           >
             <div
@@ -192,14 +192,14 @@ export default function DepiladoreIPLComparativa() {
                     height={450}
                     className="mx-auto rounded-2xl transition-transform duration-300 hover:scale-105"
                     src="/images/lumeor_pulse_proII_epilateur.webp"
-                    alt="Depiladora Luméor Pulse Pro II - Nuestra elección #1"
+                    alt="Depiladora lumeor Pulse Pro II - Nuestra elección #1"
                   />
                 </div>
               </div>
 
               <div className="order-2 md:order-1 md:col-span-3">
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 pr-32">
-                  luméor Pulse Pro II
+                  lumeor Pulse Pro II
                 </h3>
 
                 <div className="flex items-center mb-6">
@@ -265,11 +265,11 @@ export default function DepiladoreIPLComparativa() {
 
           {/* Detailed Analysis Section for #1 */}
           <div className="bg-white rounded-2xl shadow-lg p-8 mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del Luméor Pulse Pro II</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del lumeor Pulse Pro II</h3>
 
             <div className="mb-6">
               <p className="text-gray-700 leading-relaxed mb-4">
-                Nuestra primera elección se mantiene en 2026: el <strong>Luméor Pulse Pro II</strong>, lanzado a principios de 2025, se consolida en el mercado gracias a su excelente relación calidad-precio.
+                Nuestra primera elección se mantiene en 2026: el <strong>lumeor Pulse Pro II</strong>, lanzado a principios de 2025, se consolida en el mercado gracias a su excelente relación calidad-precio.
                 Tras conquistar Alemania y Reino Unido, este dispositivo se posiciona como el referente de gama media en España frente a los grandes del sector.</p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 El Pulse Pro II ofrece <strong>niveles de potencia ajustables</strong> y <strong>un modo deslizante</strong> que garantiza <strong>una sesión de depilación de luz pulsada rápida y eficaz en solo 5-10 minutos</strong>.
@@ -337,7 +337,7 @@ export default function DepiladoreIPLComparativa() {
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center text-green-800 font-bold text-lg">M</div>
                 <div>
-                  <p className="italic text-gray-700 mb-2">"El Luméor Pulse Pro II ha transformado mi rutina de belleza. En solo 8 semanas noté una reducción increíble del vello. Ya no necesito ir a la esteticista."</p>
+                  <p className="italic text-gray-700 mb-2">"El lumeor Pulse Pro II ha transformado mi rutina de belleza. En solo 8 semanas noté una reducción increíble del vello. Ya no necesito ir a la esteticista."</p>
                   <div className="flex items-center space-x-2">
                     <p className="text-sm font-semibold text-gray-800">María L., 28 años, Madrid</p>
                     <div className="flex space-x-1">
@@ -364,7 +364,7 @@ export default function DepiladoreIPLComparativa() {
                 height={160}
                 className="mx-auto rounded-xl"
                 src="/images/compLCDgood.webp"
-                alt="Pantalla LCD depiladora luméor pulse pro II"
+                alt="Pantalla LCD depiladora lumeor pulse pro II"
               />
 
               <div className="mt-6 p-4 bg-blue-50 rounded-lg">
@@ -378,7 +378,7 @@ export default function DepiladoreIPLComparativa() {
             {/* Official Site Link */}
             <div className="text-center mt-6">
               <a
-                href={decoratedLumeorUrl}
+                href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block !bg-yellow-400 hover:!bg-yellow-300 !text-black font-bold py-3 px-8 rounded-full transition-colors shadow-lg hover:shadow-xl"
@@ -703,7 +703,7 @@ export default function DepiladoreIPLComparativa() {
                   <ul className="space-y-3">
                     {[
                       "Precio elevado : 412€, más de 4 veces el precio de nuestra elección #1 para resultados similares.",
-                      "Velocidad lenta : Tratamiento completo del cuerpo en 20-25 minutos frente a 5-10 minutos del Luméor.",
+                      "Velocidad lenta : Tratamiento completo del cuerpo en 20-25 minutos frente a 5-10 minutos del lumeor.",
                       "Resultados tardíos : 10-12 semanas necesarias frente a 8 semanas para ver resultados completos.",
                       "Destellos limitados : 400K destellos frente a 990K del Pulse Pro, con reemplazo más frecuente necesario."
                     ].map((disadvantage, index) => {
@@ -810,7 +810,7 @@ export default function DepiladoreIPLComparativa() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Precio excesivo : 469€, más de 5 veces el precio del Luméor para resultados comparables.",
+                      "Precio excesivo : 469€, más de 5 veces el precio del lumeor para resultados comparables.",
                       "Opiniones dispares : 4,0/5 con numerosas quejas sobre eficacia y averías tempranas.",
                       "Destellos limitados : Solo 250K destellos frente a 990K del Pulse Pro, vida útil reducida.",
                       "Resultados lentos : 12-16 semanas necesarias frente a 8 semanas para ver los primeros resultados."
@@ -965,7 +965,7 @@ export default function DepiladoreIPLComparativa() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Precio injustificado : 349€, 4 veces el precio del Luméor para resultados notablemente inferiores.",
+                      "Precio injustificado : 349€, 4 veces el precio del lumeor para resultados notablemente inferiores.",
                       "Promesas incumplidas : Los resultados en 3 semanas anunciados no se materializan en la práctica.",
                       "Eficacia limitada : 3,8/5 únicamente, con numerosas opiniones negativas sobre la eficacia real.",
                       "Durabilidad cuestionable : Frecuentes reportes de averías y fallos tempranos.",
@@ -1029,7 +1029,7 @@ export default function DepiladoreIPLComparativa() {
                       "Tecnología obsoleta : Sistema desfasado que no puede competir con las depiladoras de luz pulsada modernas.",
                       "Zonas restringidas : Solo para el rostro, no utilizable en el cuerpo entero.",
                       "Resultados tardíos : Más de 16 semanas para cambios mínimos.",
-                      "Duración de la sesión : 25 minutos por sesión frente a 5-10 minutos del Luméor.",
+                      "Duración de la sesión : 25 minutos por sesión frente a 5-10 minutos del lumeor.",
                       "Relación calidad-precio : Incluso a precio reducido, el rendimiento no justifica la compra."
                     ].map((disadvantage, index) => {
                       const boldPart = disadvantage.split(' : ')[0];
@@ -1076,8 +1076,8 @@ export default function DepiladoreIPLComparativa() {
                         <span className="text-green-600 font-bold mr-2">🏆</span>
                         <div>
                           <div className="font-bold">
-                            <a href={decoratedLumeorUrl} className="text-green-600 hover:underline">
-                              Luméor Pulse Pro II
+                            <a href={decoratedlumeorUrl} className="text-green-600 hover:underline">
+                              lumeor Pulse Pro II
                             </a>
                           </div>
                           <div className="text-sm text-gray-500">Nuestra elección #1</div>
@@ -1487,7 +1487,7 @@ export default function DepiladoreIPLComparativa() {
                 Nuestra Recomendación Final
               </h2>
               <p className="text-xl text-gray-700 mb-6">
-                Tras pruebas exhaustivas, el <strong>Luméor Pulse Pro II</strong> sigue siendo nuestra elección #1 indiscutible
+                Tras pruebas exhaustivas, el <strong>lumeor Pulse Pro II</strong> sigue siendo nuestra elección #1 indiscutible
                 para una depilación doméstica eficaz, segura y asequible.
               </p>
 
@@ -1515,7 +1515,7 @@ export default function DepiladoreIPLComparativa() {
               </div>
 
               <a
-                href={decoratedLumeorUrl}
+                href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"

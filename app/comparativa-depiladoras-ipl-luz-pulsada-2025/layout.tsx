@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Top 5 Depiladoras de Luz Pulsada IPL en 2025 - Comparativa Completa | ExpertaBelleza",
   description: "Comparativa de las mejores depiladoras de luz pulsada IPL probadas por nuestro equipo de expertas en 2025. Reducción duradera del vello corporal en casa.",
-  keywords: "depiladora luz pulsada, IPL, reducción vello, comparativa depiladora luz pulsada 2025, mejor depiladora de luz pulsada, depilación en casa, luméor Pulse Pro",
+  keywords: "depiladora luz pulsada, IPL, reducción vello, comparativa depiladora luz pulsada 2025, mejor depiladora de luz pulsada, depilación en casa, lumeor Pulse Pro",
   openGraph: {
     type: 'website',
     locale: 'es_ES',

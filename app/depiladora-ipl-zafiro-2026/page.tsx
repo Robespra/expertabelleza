@@ -11,7 +11,7 @@ declare global {
   }
 }
 
-const LUMEOR_URL =
+const lumeor_URL =
   "https://lumeor.fr/produit/epilateur-lumeor-lumiere-pulsee-luxe-k/?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-zafiro-comparativa";
 
 function trackClick(label: string) {
@@ -67,17 +67,17 @@ export default function DepiladoraIPLZafiro() {
             {
               "@type": "Question",
               name: "¿En cuántas semanas se ven resultados con una depiladora de luz pulsada IPL de zafiro?",
-              acceptedAnswer: { "@type": "Answer", text: "Con el Luméor Luxe K a 12–14 J/cm², los primeros resultados visibles aparecen a partir de 3 a 4 semanas. Un resultado duradero requiere generalmente entre 8 y 12 sesiones semanales." },
+              acceptedAnswer: { "@type": "Answer", text: "Con el lumeor Luxe K a 12–14 J/cm², los primeros resultados visibles aparecen a partir de 3 a 4 semanas. Un resultado duradero requiere generalmente entre 8 y 12 sesiones semanales." },
             },
             {
               "@type": "Question",
-              name: "¿El Luméor Luxe K funciona en piel oscura?",
-              acceptedAnswer: { "@type": "Answer", text: "El Luméor Luxe K está adaptado a los fototipos I a IV (piel clara a mate). No se recomienda en pieles muy oscuras (fototipos V-VI) ni sobre vello muy claro." },
+              name: "¿El lumeor Luxe K funciona en piel oscura?",
+              acceptedAnswer: { "@type": "Answer", text: "El lumeor Luxe K está adaptado a los fototipos I a IV (piel clara a mate). No se recomienda en pieles muy oscuras (fototipos V-VI) ni sobre vello muy claro." },
             },
             {
               "@type": "Question",
-              name: "¿Hay garantía en el Luméor Luxe K?",
-              acceptedAnswer: { "@type": "Answer", text: "Sí. El Luméor Luxe K se vende con una garantía del fabricante de 2 años, de acuerdo con la legislación europea. El servicio posventa está gestionado desde Francia. Envío gratuito incluido. En España se aplica el derecho de desistimiento de 14 días." },
+              name: "¿Hay garantía en el lumeor Luxe K?",
+              acceptedAnswer: { "@type": "Answer", text: "Sí. El lumeor Luxe K se vende con una garantía del fabricante de 2 años, de acuerdo con la legislación europea. El servicio posventa está gestionado desde Francia. Envío gratuito incluido. En España se aplica el derecho de desistimiento de 14 días." },
             },
           ],
         })}
@@ -90,7 +90,7 @@ export default function DepiladoraIPLZafiro() {
             <div className="flex space-x-1 py-3 min-w-max">
               {[
                 { href: "#intro", label: "Resumen" },
-                { href: "#luxek", label: "Luméor Luxe K" },
+                { href: "#luxek", label: "lumeor Luxe K" },
                 { href: "#tabla", label: "Comparativa" },
                 { href: "#tecnologia", label: "Tecnología zafiro" },
                 { href: "#analisis", label: "Otros modelos" },
@@ -205,7 +205,7 @@ export default function DepiladoraIPLZafiro() {
           </h2>
 
           <a
-            href={LUMEOR_URL}
+            href={lumeor_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="block bg-white rounded-2xl shadow-xl p-2 sm:p-6 border-4 border-green-500 relative overflow-hidden hover:shadow-2xl transition-all duration-300"
@@ -226,7 +226,7 @@ export default function DepiladoraIPLZafiro() {
                     height={380}
                     className="mx-auto rounded-xl transition-transform duration-300 hover:scale-105 mb-3"
                     src="https://lumeor.fr/wp-content/uploads/2025/08/luxek.webp"
-                    alt="Luméor Luxe K depiladora de luz pulsada IPL con zafiro"
+                    alt="lumeor Luxe K depiladora de luz pulsada IPL con zafiro"
                   />
                   <div className="flex gap-2 justify-center flex-wrap">
                     {[
@@ -242,7 +242,7 @@ export default function DepiladoraIPLZafiro() {
               </div>
 
               <div className="order-2 md:order-1 md:col-span-3">
-                <h3 className="text-3xl font-bold text-gray-900 mb-2 pr-28">Luméor Luxe K</h3>
+                <h3 className="text-3xl font-bold text-gray-900 mb-2 pr-28">lumeor Luxe K</h3>
                 <div className="flex items-center mb-4">
                   <div className="flex space-x-1 mr-4">
                     {[1, 2, 3, 4].map((s) => <span key={s} className="text-yellow-400 text-2xl">★</span>)}
@@ -289,16 +289,16 @@ export default function DepiladoraIPLZafiro() {
                 </div>
 
                 <div className="text-center py-4 rounded-xl font-bold text-lg shadow-lg" style={{ backgroundColor: "#FBBF24", color: "#000000" }}>
-                  Ver el Luméor Luxe K — 139€
+                  Ver el lumeor Luxe K — 139€
                 </div>
               </div>
             </div>
           </a>
 
           <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8 mt-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del Luméor Luxe K</h3>
+            <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del lumeor Luxe K</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
-              El Luméor Luxe K está pensado para quienes están cansadas de dispositivos de gama
+              El lumeor Luxe K está pensado para quienes están cansadas de dispositivos de gama
               baja que decepcionan — o que dudan entre una depiladora de luz pulsada doméstica y una sesión
               láser a 200€. Integra el <strong>mismo enfriamiento por zafiro activo que el Ulike Air 3</strong>,
               a mitad de precio, y con casi el doble de destellos.
@@ -315,9 +315,9 @@ export default function DepiladoraIPLZafiro() {
 
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-8">
               {[
-                { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit6.jpg", alt: "Luméor Luxe K en uso" },
-                { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit7.jpg", alt: "Luméor Luxe K pantalla LCD" },
-                { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit3.jpg", alt: "Luméor Luxe K detalle zafiro" },
+                { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit6.jpg", alt: "lumeor Luxe K en uso" },
+                { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit7.jpg", alt: "lumeor Luxe K pantalla LCD" },
+                { src: "https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit3.jpg", alt: "lumeor Luxe K detalle zafiro" },
               ].map((img) => (
                 <Image key={img.src} width={280} height={200} src={img.src} alt={img.alt} className="rounded-xl object-cover w-full h-40 sm:h-48" />
               ))}
@@ -391,7 +391,7 @@ export default function DepiladoraIPLZafiro() {
                 height={160}
                 className="mx-auto rounded-xl"
                 src="https://lumeor.fr/wp-content/uploads/2025/08/luxeKProduit4.jpg"
-                alt="Pantalla LCD depiladora Luméor Luxe K"
+                alt="Pantalla LCD depiladora lumeor Luxe K"
               />
               <div className="mt-6 p-4 bg-blue-50 rounded-lg">
                 <p className="text-blue-800 text-sm font-medium text-center">
@@ -403,7 +403,7 @@ export default function DepiladoraIPLZafiro() {
 
             <div className="text-center">
               <a
-                href={LUMEOR_URL}
+                href={lumeor_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block font-bold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition-all"
@@ -457,7 +457,7 @@ export default function DepiladoraIPLZafiro() {
                 El Ulike Air 3 y el Air 10 apuestan por su tecnología de enfriamiento por hielo y un marketing
                 agresivo en redes sociales. Aunque prometen resultados rápidos en 3 semanas,
                 nuestras pruebas revelan un rendimiento decepcionante y un precio injustificado de 349€ para
-                dispositivos de capacidades limitadas frente al Luméor Luxe K.
+                dispositivos de capacidades limitadas frente al lumeor Luxe K.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -485,7 +485,7 @@ export default function DepiladoraIPLZafiro() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Precio injustificado : 349€, es decir 2,5 veces el precio del Luméor Luxe K, para resultados claramente inferiores.",
+                      "Precio injustificado : 349€, es decir 2,5 veces el precio del lumeor Luxe K, para resultados claramente inferiores.",
                       "Promesas incumplidas : Los resultados en 3 semanas anunciados no se materializan en la práctica.",
                       "Eficacia limitada : Nota de 3,8/5 con numerosas valoraciones negativas sobre la eficacia real.",
                       "Durabilidad cuestionable : Informes frecuentes de averías y fallos prematuros.",
@@ -541,7 +541,7 @@ export default function DepiladoraIPLZafiro() {
                 El Bodysiam Elite se distingue por su posicionamiento francés y su atención al cliente local,
                 un argumento poco frecuente en este mercado dominado por marcas asiáticas. Su acabado cuidado y su
                 servicio posventa reactivo son valorados. Sin embargo, la ausencia de enfriamiento por zafiro y una
-                potencia inferior a la del Luméor Luxe K dificultan justificar su precio de 179€.
+                potencia inferior a la del lumeor Luxe K dificultan justificar su precio de 179€.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -788,7 +788,7 @@ export default function DepiladoraIPLZafiro() {
                 El Braun Silk Expert Pro 5 consolida su posición premium gracias a su tecnología SensoAdapt,
                 que analiza continuamente el tono de piel para ajustar la intensidad luminosa. Pese a una
                 calidad de fabricación impecable y resultados clínicamente probados, la ausencia de
-                enfriamiento por zafiro y un posicionamiento de precio elevado lo sitúan por detrás del Luméor
+                enfriamiento por zafiro y un posicionamiento de precio elevado lo sitúan por detrás del lumeor
                 Luxe K en cuanto a relación calidad-precio.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -871,7 +871,7 @@ export default function DepiladoraIPLZafiro() {
                 El Philips Lumea 9000 se apoya en la experiencia centenaria de Philips en tecnologías de
                 cuidado personal. Con su aplicación móvil SmartSkin y su modo deslizante rápido, ofrece una
                 experiencia de usuario completa. Sin embargo, su precio de 580€, la ausencia de enfriamiento
-                por zafiro y una potencia no comunicada ya no justifican la inversión frente al Luméor Luxe K.
+                por zafiro y una potencia no comunicada ya no justifican la inversión frente al lumeor Luxe K.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -942,10 +942,10 @@ export default function DepiladoraIPLZafiro() {
               <tbody>
                 <tr
                   className="bg-green-50 border-2 border-green-500 cursor-pointer hover:bg-green-100 transition-colors"
-                  onClick={() => { trackClick("lumeor_table_row"); window.open(LUMEOR_URL, "_blank", "noopener,noreferrer"); }}
+                  onClick={() => { trackClick("lumeor_table_row"); window.open(lumeor_URL, "_blank", "noopener,noreferrer"); }}
                 >
                   <td className="px-4 py-5">
-                    <div className="font-bold text-gray-900">Luméor Luxe K</div>
+                    <div className="font-bold text-gray-900">lumeor Luxe K</div>
                     <span className="inline-block mt-1 bg-green-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">Mejor relación calidad-precio</span>
                   </td>
                   <td className="px-4 py-5 text-center font-bold text-green-700 text-base">139€</td>
@@ -1033,7 +1033,7 @@ export default function DepiladoraIPLZafiro() {
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
               Esta tecnología estuvo reservada durante mucho tiempo a los dispositivos profesionales
-              de centros de estética. Ulike la democratizó a ~349€ (Air 10). El Luméor Luxe K la integra
+              de centros de estética. Ulike la democratizó a ~349€ (Air 10). El lumeor Luxe K la integra
               ahora a 139€ — es decir, dos veces más barata por una tecnología idéntica.
             </p>
             <p className="text-gray-700 leading-relaxed">
@@ -1058,7 +1058,7 @@ export default function DepiladoraIPLZafiro() {
 
         <section id="veredicto" className="mb-16">
           <div className="bg-gray-900 rounded-2xl p-8 sm:p-10 text-white">
-            <h2 className="text-3xl font-bold mb-6">Nuestro veredicto: el Luméor Luxe K se impone</h2>
+            <h2 className="text-3xl font-bold mb-6">Nuestro veredicto: el lumeor Luxe K se impone</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Tras probar estos siete dispositivos, la conclusión es clara. El no!no! Pro IPL
               y el Braun Silk Expert Pro 5 — sin enfriamiento por zafiro — ofrecen resultados
@@ -1066,7 +1066,7 @@ export default function DepiladoraIPLZafiro() {
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
               El Ulike Air 3 / Air 10 integra la tecnología de zafiro — pero a 349€ con resultados
-              decepcionantes y valoraciones de 3,8/5, pierde todo su atractivo frente al Luméor Luxe K: mismo
+              decepcionantes y valoraciones de 3,8/5, pierde todo su atractivo frente al lumeor Luxe K: mismo
               enfriamiento por zafiro, potencia de 12–14 J/cm², y 999.999 destellos para más de 10
               años de uso por solo 139€.
             </p>
@@ -1089,14 +1089,14 @@ export default function DepiladoraIPLZafiro() {
               ))}
             </div>
             <a
-              href={LUMEOR_URL}
+              href={lumeor_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="block w-full text-center py-5 rounded-2xl font-bold text-xl shadow-xl"
               style={{ backgroundColor: "#FBBF24", color: "#000000" }}
               onClick={() => trackClick("lumeor_verdict_cta")}
             >
-              Ver el Luméor Luxe K — 139€
+              Ver el lumeor Luxe K — 139€
             </a>
             <p className="text-center text-gray-500 text-xs mt-3">Envío gratuito · Garantía 2 años · Derecho de desistimiento 14 días</p>
           </div>
@@ -1116,15 +1116,15 @@ export default function DepiladoraIPLZafiro() {
               },
               {
                 q: "¿En cuántas semanas se ven resultados con una depiladora de luz pulsada IPL de zafiro?",
-                a: "Con el Luméor Luxe K a 12–14 J/cm², los primeros resultados visibles aparecen a partir de 3 a 4 semanas con sesiones semanales. Un resultado duradero y completo requiere generalmente entre 8 y 12 sesiones.",
+                a: "Con el lumeor Luxe K a 12–14 J/cm², los primeros resultados visibles aparecen a partir de 3 a 4 semanas con sesiones semanales. Un resultado duradero y completo requiere generalmente entre 8 y 12 sesiones.",
               },
               {
-                q: "¿El Luméor Luxe K funciona en piel oscura?",
-                a: "El Luméor Luxe K está adaptado a los fototipos I a IV (piel clara a mate). Como todos los dispositivos IPL, requiere un contraste entre el color del vello y el de la piel. No se recomienda en pieles muy oscuras (fototipos V–VI) ni sobre vello muy claro.",
+                q: "¿El lumeor Luxe K funciona en piel oscura?",
+                a: "El lumeor Luxe K está adaptado a los fototipos I a IV (piel clara a mate). Como todos los dispositivos IPL, requiere un contraste entre el color del vello y el de la piel. No se recomienda en pieles muy oscuras (fototipos V–VI) ni sobre vello muy claro.",
               },
               {
-                q: "¿Hay garantía en el Luméor Luxe K?",
-                a: "Sí. El Luméor Luxe K se vende con una garantía del fabricante de 2 años, conforme a la legislación europea. El servicio posventa está gestionado desde Francia, con envío gratuito incluido. En España se aplica el derecho de desistimiento de 14 días.",
+                q: "¿Hay garantía en el lumeor Luxe K?",
+                a: "Sí. El lumeor Luxe K se vende con una garantía del fabricante de 2 años, conforme a la legislación europea. El servicio posventa está gestionado desde Francia, con envío gratuito incluido. En España se aplica el derecho de desistimiento de 14 días.",
               },
             ].map((item) => (
               <details key={item.q} className="group bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
@@ -1148,7 +1148,7 @@ export default function DepiladoraIPLZafiro() {
                 Nuestra recomendación final
               </h2>
               <p className="text-xl text-gray-700 mb-6">
-                Tras pruebas exhaustivas, el <strong>Luméor LUXE K</strong> sigue siendo nuestra elección #1 indiscutible
+                Tras pruebas exhaustivas, el <strong>lumeor LUXE K</strong> sigue siendo nuestra elección #1 indiscutible
                 para una depilación en casa eficaz, segura y sin molestias.
               </p>
 
@@ -1176,7 +1176,7 @@ export default function DepiladoraIPLZafiro() {
               </div>
 
               <a
-                href={LUMEOR_URL}
+                href={lumeor_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"

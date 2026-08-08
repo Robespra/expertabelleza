@@ -12,7 +12,7 @@ declare global {
 
 export default function DepiladoraIPL2025() {
   const lumeorBaseUrl = "https://lumeor.fr/produit/epilateur-lumiere-pulsee-permanent-pulse-pro-ii/";
-  const decoratedLumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-2025-legacy`;
+  const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-2025-legacy`;
 
   return (
     <main className="bg-gray-100 min-h-screen">
@@ -59,7 +59,7 @@ export default function DepiladoraIPL2025() {
             <p className="text-gray-800 font-medium mb-2">Guía de 2025 — contenido desactualizado</p>
             <p className="text-gray-600 text-sm mb-4">
               Esta comparativa corresponde a la edición 2025. Nuestra guía 2026 incluye nuevos modelos probados,
-              precios actualizados y el Luméor Pulse Pro II como elección #1 a 89€.
+              precios actualizados y el lumeor Pulse Pro II como elección #1 a 89€.
             </p>
             <Link
               href="/comparativa-depiladoras-ipl-luz-pulsada-2026"
@@ -107,13 +107,13 @@ export default function DepiladoraIPL2025() {
             <div className="flex items-center space-x-4">
               <Image
                 src="/images/PulseProIISolo.jpg"
-                alt="Luméor Pulse Pro II - Depiladora de Luz Pulsada IPL"
+                alt="lumeor Pulse Pro II - Depiladora de Luz Pulsada IPL"
                 width={120}
                 height={160}
                 className="rounded-xl"
               />
               <div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">luméor Pulse Pro II</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">lumeor Pulse Pro II</h3>
                 <div className="flex space-x-1 mb-2">
                   {[1,2,3,4,5].map((star) => (
                     <span key={star} className="text-yellow-400">★</span>
@@ -121,7 +121,7 @@ export default function DepiladoraIPL2025() {
                 </div>
                 <p className="text-gray-600 text-sm mb-3">4,8/5 · 2.847 valoraciones verificadas · 89€</p>
                 <a
-                  href={decoratedLumeorUrl}
+                  href={decoratedlumeorUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-5 rounded-full text-sm transition-colors"
