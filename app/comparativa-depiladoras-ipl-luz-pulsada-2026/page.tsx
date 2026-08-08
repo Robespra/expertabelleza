@@ -26,8 +26,8 @@ export default function DepiladoreIPLComparativa() {
           "headline": "Top 5 Depiladoras de Luz Pulsada IPL en 2026 - Comparativa Exclusiva",
           "description": "Comparativa detallada de las mejores depiladoras de luz pulsada IPL probadas por nuestro equipo de expertas en 2026.",
           "image": "https://expertabelleza.es/images/comparatif_epilateurs_header2026.jpg",
-          "datePublished": "2026-01-06T09:00:00+01:00",
-          "dateModified": "2026-01-06T09:00:00+01:00",
+          "datePublished": "2026-08-08T09:00:00+02:00",
+          "dateModified": "2026-08-08T09:00:00+02:00",
           "author": {
             "@type": "Person",
             "name": "Carmen Ruiz",
@@ -146,9 +146,9 @@ export default function DepiladoreIPLComparativa() {
               />
               <div>
                 <div className="flex items-center text-sm text-gray-500 mb-1">
-                  <span>6 de enero de 2026</span>
+                  <span>8 de agosto de 2026</span>
                   <span className="mx-2">•</span>
-                  <span>Actualizado: 6 de enero de 2026</span>
+                  <span>Actualizado: 8 de agosto de 2026</span>
                 </div>
                 <p className="font-semibold text-lg text-gray-900">Por Carmen Ruiz</p>
                 <p className="text-sm text-gray-600">Experta en dermatología • 8 años de experiencia</p>

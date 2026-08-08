@@ -84,7 +84,7 @@ export default function Home() {
                 <div className="bg-[#2ba283]/5 rounded-lg p-6">
                   <div className="text-3xl font-bold text-[#2ba283] mb-2">1.500+</div>
                   <p className="text-gray-600 mb-4">Productos probados</p>
-                  <div className="text-sm text-gray-500">Actualización: enero 2026</div>
+                  <div className="text-sm text-gray-500">Actualización: agosto 2026</div>
                 </div>
               </div>
             </div>
@@ -568,7 +568,7 @@ export default function Home() {
           <div className="border-t border-gray-800 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2026 expertabelleza.es - Todos los derechos reservados</p>
-              <div className="text-gray-400 text-sm">Actualización: enero 2026</div>
+              <div className="text-gray-400 text-sm">Actualización: agosto 2026</div>
             </div>
             <div className="mt-6 text-xs text-gray-500 leading-relaxed">
               <p>*Aviso legal: Estas declaraciones no han sido evaluadas por las autoridades sanitarias. Estos productos no están destinados a tratar, curar o prevenir ninguna enfermedad. Los resultados pueden variar y no están garantizados. Consulta siempre a un profesional de la salud cualificado para cualquier cuestión relacionada con tu estado de salud.</p>
