@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://expertabelleza.es/comparativa-hidropulsadores-dentales-2026',
   },
-  authors: [{ name: 'Emmanuelle Harault' }],
+  authors: [{ name: 'Lucía Fernández' }],
   publisher: 'ExpertaBelleza',
 };
 

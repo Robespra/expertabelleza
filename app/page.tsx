@@ -56,9 +56,9 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-4">
-                  <Image width={80} height={80} className="rounded-full mr-4" src="/images/sarahMartin.webp" alt="Sarah Martin" />
+                  <Image width={80} height={80} className="rounded-full mr-4" src="/images/sarahMartin.webp" alt="Carmen Ruiz" />
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">Sarah Martin</h3>
+                    <h3 className="text-2xl font-bold text-gray-900">Carmen Ruiz</h3>
                     <p className="text-[#2ba283] font-medium">Experta en Dermatología</p>
                   </div>
                 </div>
@@ -94,9 +94,9 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-4">
-                  <Image width={80} height={80} className="rounded-full mr-4" src="/images/EmmanuelleHarault.jpg" alt="Emmanuelle Harault" />
+                  <Image width={80} height={80} className="rounded-full mr-4" src="/images/EmmanuelleHarault.jpg" alt="Lucía Fernández" />
                   <div>
-                    <h3 className="text-2xl font-bold text-gray-900">Emmanuelle Harault</h3>
+                    <h3 className="text-2xl font-bold text-gray-900">Lucía Fernández</h3>
                     <p className="text-blue-600 font-medium">Experta en Higiene Bucodental</p>
                   </div>
                 </div>

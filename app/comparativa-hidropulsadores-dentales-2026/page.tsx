@@ -31,7 +31,7 @@ export default function HidropulsadorDentalComparativa() {
           "dateModified": "2026-01-06T09:00:00+01:00",
           "author": {
             "@type": "Person",
-            "name": "Emmanuelle Harault",
+            "name": "Lucía Fernández",
             "jobTitle": "Experta en higiene bucodental"
           },
           "publisher": {
@@ -169,7 +169,7 @@ export default function HidropulsadorDentalComparativa() {
                 height={60}
                 className="rounded-full mr-4"
                 src="/images/EmmanuelleHarault.jpg"
-                alt="Emmanuelle Harault"
+                alt="Lucía Fernández"
               />
               <div>
                 <div className="flex items-center text-sm text-gray-500 mb-1">
@@ -177,7 +177,7 @@ export default function HidropulsadorDentalComparativa() {
                   <span className="mx-2">•</span>
                   <span>Actualizado: 6 enero 2026</span>
                 </div>
-                <p className="font-semibold text-lg text-gray-900">Por Emmanuelle Harault</p>
+                <p className="font-semibold text-lg text-gray-900">Por Lucía Fernández</p>
                 <p className="text-sm text-gray-600">Experta en higiene bucodental • 8 años de experiencia</p>
               </div>
             </div>

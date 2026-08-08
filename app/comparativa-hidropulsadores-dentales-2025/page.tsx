@@ -75,7 +75,7 @@ export default function HidropulsadorDental2025() {
               height={60}
               className="rounded-full mr-4"
               src="/images/EmmanuelleHarault.jpg"
-              alt="Emmanuelle Harault"
+              alt="Lucía Fernández"
             />
             <div>
               <div className="flex items-center text-sm text-gray-500 mb-1">
@@ -83,7 +83,7 @@ export default function HidropulsadorDental2025() {
                 <span className="mx-2">•</span>
                 <span>Actualizado: 6 enero 2025</span>
               </div>
-              <p className="font-semibold text-lg text-gray-900">Por Emmanuelle Harault</p>
+              <p className="font-semibold text-lg text-gray-900">Por Lucía Fernández</p>
               <p className="text-sm text-gray-600">Experta en higiene bucodental • 8 años de experiencia</p>
             </div>
           </div>

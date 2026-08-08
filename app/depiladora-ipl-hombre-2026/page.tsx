@@ -39,7 +39,7 @@ export default function DepiladoraIPLHombre() {
           image: "https://expertabelleza.es/images/comparatif_epilateurs_men_header2026.jpg",
           datePublished: "2026-04-12T09:00:00+02:00",
           dateModified: "2026-04-12T09:00:00+02:00",
-          author: { "@type": "Person", name: "Sarah Martin", jobTitle: "Experta en dermatología" },
+          author: { "@type": "Person", name: "Carmen Ruiz", jobTitle: "Experta en dermatología" },
           publisher: {
             "@type": "Organization",
             name: "ExpertaBelleza",
@@ -183,7 +183,7 @@ export default function DepiladoraIPLHombre() {
                 height={60}
                 className="rounded-full mr-4"
                 src="/images/sarahMartin.webp"
-                alt="Sarah Martin"
+                alt="Carmen Ruiz"
               />
               <div>
                 <div className="flex items-center text-sm text-gray-500 mb-1">
@@ -191,7 +191,7 @@ export default function DepiladoraIPLHombre() {
                   <span className="mx-2">•</span>
                   <span>Actualizado: 12 de abril de 2026</span>
                 </div>
-                <p className="font-semibold text-lg text-gray-900">Por Sarah Martin</p>
+                <p className="font-semibold text-lg text-gray-900">Por Carmen Ruiz</p>
                 <p className="text-sm text-gray-600">Experta en dermatología • 8 años de experiencia</p>
               </div>
             </div>

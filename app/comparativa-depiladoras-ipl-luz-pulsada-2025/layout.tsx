@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://expertabelleza.es/comparativa-depiladoras-ipl-luz-pulsada-2026',
   },
-  authors: [{ name: 'Sarah Martin' }],
+  authors: [{ name: 'Carmen Ruiz' }],
   publisher: 'ExpertaBelleza',
 };
 

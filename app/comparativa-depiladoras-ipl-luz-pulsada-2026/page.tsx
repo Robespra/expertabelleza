@@ -30,7 +30,7 @@ export default function DepiladoreIPLComparativa() {
           "dateModified": "2026-01-06T09:00:00+01:00",
           "author": {
             "@type": "Person",
-            "name": "Sarah Martin",
+            "name": "Carmen Ruiz",
             "jobTitle": "Experta en dermatología"
           },
           "publisher": {
@@ -142,7 +142,7 @@ export default function DepiladoreIPLComparativa() {
                 height={60}
                 className="rounded-full mr-4"
                 src="/images/sarahMartin.webp"
-                alt="Sarah Martin"
+                alt="Carmen Ruiz"
               />
               <div>
                 <div className="flex items-center text-sm text-gray-500 mb-1">
@@ -150,7 +150,7 @@ export default function DepiladoreIPLComparativa() {
                   <span className="mx-2">•</span>
                   <span>Actualizado: 6 de enero de 2026</span>
                 </div>
-                <p className="font-semibold text-lg text-gray-900">Por Sarah Martin</p>
+                <p className="font-semibold text-lg text-gray-900">Por Carmen Ruiz</p>
                 <p className="text-sm text-gray-600">Experta en dermatología • 8 años de experiencia</p>
               </div>
             </div>
