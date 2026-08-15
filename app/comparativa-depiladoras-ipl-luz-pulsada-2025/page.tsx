@@ -35,7 +35,7 @@ const articleJsonLd = {
 };
 
 export default function DepiladoraIPL2025() {
-  const lumeorBaseUrl = "https://lumeor.fr/es/producto/depiladora-lumeor-pulse-pro-ii/";
+  const lumeorBaseUrl = "https://lumeor.fr/es/produit/depiladora-lumeor-pulse-pro-ii/";
   const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-2025-legacy`;
 
   return (

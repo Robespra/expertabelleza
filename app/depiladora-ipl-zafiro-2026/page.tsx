@@ -12,7 +12,7 @@ declare global {
 }
 
 const lumeor_URL =
-  "https://lumeor.fr/es/producto/depiladora-lumeor-luxe-k/?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-zafiro-comparativa";
+  "https://lumeor.fr/es/produit/depiladora-lumeor-luxe-k/?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-zafiro-comparativa";
 
 function trackClick(label: string) {
   if (typeof window !== "undefined" && window.gtag) {

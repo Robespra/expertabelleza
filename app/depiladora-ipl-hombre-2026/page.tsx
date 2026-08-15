@@ -12,9 +12,9 @@ declare global {
 }
 
 const LUXEK_URL =
-  "https://lumeor.fr/es/producto/depiladora-lumeor-luxe-k/?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-hombre";
+  "https://lumeor.fr/es/produit/depiladora-lumeor-luxe-k/?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-hombre";
 const PULSEPRO_URL =
-  "https://lumeor.fr/es/producto/depiladora-lumeor-pulse-pro-ii/?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-hombre";
+  "https://lumeor.fr/es/produit/depiladora-lumeor-pulse-pro-ii/?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-hombre";
 
 function trackClick(label: string) {
   if (typeof window !== "undefined" && window.gtag) {
