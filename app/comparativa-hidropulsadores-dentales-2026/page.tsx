@@ -39,7 +39,7 @@ export default function HidropulsadorDentalComparativa() {
             "name": "ExpertaBelleza",
             "logo": {
               "@type": "ImageObject",
-              "url": "https://expertabelleza.es/logo.png"
+              "url": "https://expertabelleza.es/images/apple-touch-icon.png"
             }
           },
           "mainEntityOfPage": {

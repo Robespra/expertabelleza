@@ -10,12 +10,40 @@ declare global {
   }
 }
 
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Top 5 Depiladoras de Luz Pulsada IPL en 2025 - Comparativa Completa",
+  description:
+    "Comparativa de las mejores depiladoras de luz pulsada IPL probadas por nuestro equipo de expertas en 2025. Reducción duradera del vello corporal en casa.",
+  image: "https://expertabelleza.es/images/comparatif_epilateurs_header.jpg",
+  datePublished: "2025-01-06T09:00:00+01:00",
+  dateModified: "2025-01-06T09:00:00+01:00",
+  author: { "@type": "Person", name: "Carmen Ruiz" },
+  publisher: {
+    "@type": "Organization",
+    name: "ExpertaBelleza",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://expertabelleza.es/images/apple-touch-icon.png",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://expertabelleza.es/comparativa-depiladoras-ipl-luz-pulsada-2026",
+  },
+};
+
 export default function DepiladoraIPL2025() {
   const lumeorBaseUrl = "https://lumeor.fr/es/producto/depiladora-lumeor-pulse-pro-ii/";
   const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-2025-legacy`;
 
   return (
     <main className="bg-gray-100 min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
 
       {/* Updated version banner */}
       <div className="bg-green-600 text-white py-3 px-4 text-center">

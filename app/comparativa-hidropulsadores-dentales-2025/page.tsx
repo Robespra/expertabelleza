@@ -10,12 +10,40 @@ declare global {
   }
 }
 
+const articleJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: "Top 5 Hidropulsadores Dentales en 2025 - Comparativa Completa",
+  description:
+    "Comparativa de los mejores hidropulsadores dentales probados por nuestro equipo de expertas en 2025. Higiene bucodental óptima en casa.",
+  image: "https://expertabelleza.es/images/JetDentaireComparison-main.jpg",
+  datePublished: "2025-01-06T09:00:00+01:00",
+  dateModified: "2025-01-06T09:00:00+01:00",
+  author: { "@type": "Person", name: "Lucía Fernández" },
+  publisher: {
+    "@type": "Organization",
+    name: "ExpertaBelleza",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://expertabelleza.es/images/apple-touch-icon.png",
+    },
+  },
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://expertabelleza.es/comparativa-hidropulsadores-dentales-2026",
+  },
+};
+
 export default function HidropulsadorDental2025() {
   const lumeorBaseUrl = "https://lumeor.fr/es/producto/irrigador-bucal-lumeor-lyrax-pro/";
   const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=hidropulsador-2025-legacy`;
 
   return (
     <main className="bg-gray-100 min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }}
+      />
 
       {/* Updated version banner */}
       <div className="bg-blue-600 text-white py-3 px-4 text-center">

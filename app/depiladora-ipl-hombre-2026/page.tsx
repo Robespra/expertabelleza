@@ -43,7 +43,7 @@ export default function DepiladoraIPLHombre() {
           publisher: {
             "@type": "Organization",
             name: "ExpertaBelleza",
-            logo: { "@type": "ImageObject", url: "https://expertabelleza.es/logo.png" },
+            logo: { "@type": "ImageObject", url: "https://expertabelleza.es/images/apple-touch-icon.png" },
           },
           mainEntityOfPage: {
             "@type": "WebPage",

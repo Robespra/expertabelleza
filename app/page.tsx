@@ -1,9 +1,31 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "ExpertaBelleza",
+  url: "https://expertabelleza.es/",
+  description:
+    "Comparativas independientes y opiniones auténticas sobre depiladoras de luz pulsada IPL, hidropulsadores dentales y otros aparatos de belleza y bienestar.",
+  inLanguage: "es-ES",
+  publisher: {
+    "@type": "Organization",
+    name: "ExpertaBelleza",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://expertabelleza.es/images/apple-touch-icon.png",
+    },
+  },
+};
+
 export default function Home() {
   return (
     <div className="bg-white min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
+      />
       {/* Hero Section */}
       <section className="relative bg-white overflow-hidden">
         <div className="absolute bottom-0 left-0 right-0 h-32">

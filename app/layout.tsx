@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://expertabelleza.es"),
   title: "ExpertaBelleza - Comparativas de depiladoras, hidropulsadores y más",
   description: "ExpertaBelleza: comparativas independientes y opiniones auténticas sobre depiladoras de luz pulsada IPL, hidropulsadores dentales y otros aparatos de belleza y bienestar. Tests, precios, eficacia y recomendaciones de expertas.",
   keywords: "expertabelleza, comparativa depiladora luz pulsada, comparativa IPL, comparativa hidropulsador dental, avis aparatos belleza, tests independientes belleza",
