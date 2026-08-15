@@ -14,7 +14,7 @@ declare global {
 }
 
 export default function HidropulsadorDentalComparativa() {
-  const lumeorBaseUrl = "https://lumeor.fr/produit/jet-dentaire-hydropulseur-lyrax-pro/";
+  const lumeorBaseUrl = "https://lumeor.fr/es/producto/irrigador-bucal-lumeor-lyrax-pro/";
   const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=hidropulsador-dental-review`;
 
   return (

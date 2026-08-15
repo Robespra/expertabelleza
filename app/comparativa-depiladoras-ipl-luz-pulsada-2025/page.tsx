@@ -11,7 +11,7 @@ declare global {
 }
 
 export default function DepiladoraIPL2025() {
-  const lumeorBaseUrl = "https://lumeor.fr/produit/epilateur-lumiere-pulsee-permanent-pulse-pro-ii/";
+  const lumeorBaseUrl = "https://lumeor.fr/es/producto/depiladora-lumeor-pulse-pro-ii/";
   const decoratedlumeorUrl = `${lumeorBaseUrl}?utm_source=expertabelleza&utm_medium=referral&utm_campaign=ipl-2025-legacy`;
 
   return (
