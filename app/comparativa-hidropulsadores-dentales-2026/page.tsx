@@ -848,13 +848,25 @@ export default function HidropulsadorDentalComparativa() {
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-gray-200">
-                  <tr className="bg-blue-50 border-l-4 border-blue-600">
+                  <tr
+                    className="bg-blue-50 border-l-4 border-blue-600 cursor-pointer hover:bg-blue-100 transition-colors"
+                    onClick={() => {
+                      if (typeof window !== 'undefined' && window.gtag) {
+                        window.gtag('event', 'click', {
+                          event_category: 'outbound',
+                          event_label: 'lumeor_table_row',
+                          transport_type: 'beacon'
+                        });
+                      }
+                      window.open(decoratedlumeorUrl, '_blank', 'noopener,noreferrer');
+                    }}
+                  >
                     <td className="px-6 py-4">
                       <div className="flex items-center">
                         <span className="text-blue-600 font-bold mr-2">🏆</span>
                         <div>
                           <div className="font-bold">
-                            <a href={decoratedlumeorUrl} className="text-blue-600 hover:underline">
+                            <a href={decoratedlumeorUrl} className="text-blue-600 hover:underline" onClick={(e) => e.stopPropagation()}>
                               LyraX Pro
                             </a>
                           </div>

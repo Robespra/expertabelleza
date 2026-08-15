@@ -302,7 +302,10 @@ export default function DepiladoraIPLHombre() {
                 </tr>
               </thead>
               <tbody>
-                <tr className="bg-blue-50 border-2 border-blue-400">
+                <tr
+                  className="bg-blue-50 border-2 border-blue-400 cursor-pointer hover:bg-blue-100 transition-colors"
+                  onClick={() => { trackClick("pulsepro_table_row"); window.open(PULSEPRO_URL, "_blank", "noopener,noreferrer"); }}
+                >
                   <td className="px-4 py-5">
                     <div className="font-bold text-gray-900">lumeor Pulse Pro II</div>
                     <span className="inline-block mt-1 bg-blue-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
@@ -316,7 +319,10 @@ export default function DepiladoraIPLHombre() {
                   <td className="px-4 py-5 text-center text-gray-700 hidden sm:table-cell">990.000</td>
                   <td className="px-4 py-5 text-center font-bold text-blue-700 text-base">8/10</td>
                 </tr>
-                <tr className="bg-green-50 border-2 border-green-500">
+                <tr
+                  className="bg-green-50 border-2 border-green-500 cursor-pointer hover:bg-green-100 transition-colors"
+                  onClick={() => { trackClick("luxek_table_row"); window.open(LUXEK_URL, "_blank", "noopener,noreferrer"); }}
+                >
                   <td className="px-4 py-5">
                     <div className="font-bold text-gray-900">lumeor Luxe K</div>
                     <span className="inline-block mt-1 bg-green-600 text-white text-xs font-bold px-2 py-0.5 rounded-full">
