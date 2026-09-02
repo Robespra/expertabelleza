@@ -1081,7 +1081,7 @@ export default function HidropulsadorDentalComparativa() {
                       Mejores Depiladoras de Luz Pulsada IPL 2026
                     </h3>
                     <p className="text-gray-600 mb-3 text-sm">
-                      Reducción del vello con IPL eficaz en casa. Nuestra comparativa completa de las mejores depiladoras de luz pulsada desde 89€.
+                      Reducción del vello con IPL eficaz en casa. Nuestra comparativa completa de las mejores depiladoras de luz pulsada desde 79€.
                     </p>
                     <div className="flex items-center text-green-600 font-medium text-sm">
                       <span>Ver la guía completa</span>

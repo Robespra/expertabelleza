@@ -312,7 +312,7 @@ export default function DepiladoraIPLHombre() {
                       💰 Mejor precio para empezar
                     </span>
                   </td>
-                  <td className="px-4 py-5 text-center font-bold text-blue-700 text-base">89€</td>
+                  <td className="px-4 py-5 text-center font-bold text-blue-700 text-base">79€</td>
                   <td className="px-4 py-5 text-center text-xl">❌</td>
                   <td className="px-4 py-5 text-center text-gray-700 hidden sm:table-cell">8–10 J/cm²</td>
                   <td className="px-4 py-5 text-center text-gray-700 hidden md:table-cell">10–15 min</td>
@@ -533,7 +533,7 @@ export default function DepiladoraIPLHombre() {
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3 pr-36">
               <h3 className="text-2xl font-bold text-gray-900">lumeor Pulse Pro II — depilación de luz pulsada para hombre</h3>
               <div className="flex items-center gap-3">
-                <span className="text-2xl font-bold text-blue-700">89€</span>
+                <span className="text-2xl font-bold text-blue-700">79€</span>
                 <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">8/10</span>
               </div>
             </div>
@@ -565,7 +565,7 @@ export default function DepiladoraIPLHombre() {
                   <h4 className="font-bold text-blue-800 mb-3">💡 Ideal para probar la IPL sin gran inversión:</h4>
                   <ul className="space-y-2 text-sm text-gray-700">
                     {[
-                      ["89€", "el punto de entrada más asequible del mercado"],
+                      ["79€", "el punto de entrada más asequible del mercado"],
                       ["8–10 J/cm²", "potencia suficiente en vello de densidad moderada"],
                       ["990.000 destellos", "más de 10 años de uso sin reemplazo"],
                       ["Pantalla LCD", "control preciso de la intensidad (5 niveles)"],
@@ -590,7 +590,7 @@ export default function DepiladoraIPLHombre() {
                   <div>
                     <h4 className="font-semibold text-green-700 mb-2 text-sm">✅ Puntos fuertes</h4>
                     <ul className="space-y-1 text-sm text-gray-600">
-                      <li>• Precio imbatible — 89€</li>
+                      <li>• Precio imbatible — 79€</li>
                       <li>• 990.000 destellos (más de 10 años)</li>
                       <li>• Pantalla LCD, 5 niveles de intensidad</li>
                       <li>• Servicio posventa, garantía 2 años</li>
@@ -614,7 +614,7 @@ export default function DepiladoraIPLHombre() {
                   style={{ backgroundColor: "#3B82F6", color: "#ffffff" }}
                   onClick={() => trackClick("pulsepro_analysis_hombre")}
                 >
-                  Ver el lumeor Pulse Pro II — 89€
+                  Ver el lumeor Pulse Pro II — 79€
                 </a>
               </div>
             </div>
@@ -704,7 +704,7 @@ export default function DepiladoraIPLHombre() {
             </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               En 2026, dos dispositivos lumeor destacan claramente para los hombres:{" "}
-              el <strong>Pulse Pro II a 89€</strong> para quienes quieren probar la IPL sin gran
+              el <strong>Pulse Pro II a 79€</strong> para quienes quieren probar la IPL sin gran
               compromiso, y el <strong>Luxe K a 139€</strong> para quienes quieren
               el confort del zafiro — imprescindible en el vello grueso masculino — a un precio
               que el Ulike Air 3 no puede igualar (260€ por la misma tecnología).
@@ -712,7 +712,7 @@ export default function DepiladoraIPLHombre() {
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
               {[
-                { value: "89€", label: "Pulse Pro II — para empezar" },
+                { value: "79€", label: "Pulse Pro II — para empezar" },
                 { value: "139€", label: "Luxe K — con zafiro" },
                 { value: "4–6 sem", label: "Resultados pecho" },
                 { value: "10+ años", label: "Vida útil" },
@@ -734,7 +734,7 @@ export default function DepiladoraIPLHombre() {
                 onClick={() => trackClick("pulsepro_verdict_hombre")}
               >
                 lumeor Pulse Pro II<br />
-                <span className="text-sm font-normal opacity-90">89€ — Mejor precio</span>
+                <span className="text-sm font-normal opacity-90">79€ — Mejor precio</span>
               </a>
               <a
                 href={LUXEK_URL}
@@ -808,7 +808,7 @@ export default function DepiladoraIPLHombre() {
             onClick={() => trackClick("pulsepro_footer_hombre")}
           >
             lumeor Pulse Pro II<br />
-            <span className="text-sm font-normal opacity-90">89€ · Envío gratuito</span>
+            <span className="text-sm font-normal opacity-90">79€ · Envío gratuito</span>
           </a>
           <a
             href={LUXEK_URL}
