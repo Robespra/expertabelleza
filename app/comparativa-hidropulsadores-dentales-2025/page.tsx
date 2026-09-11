@@ -84,7 +84,7 @@ export default function HidropulsadorDental2025() {
           </h1>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 rounded-xl p-6 mb-8">
-            <p className="text-gray-800 font-medium mb-2">Guía de 2025 — contenido desactualizado</p>
+            <p className="text-gray-800 font-medium mb-2">Guía de 2025: contenido desactualizado</p>
             <p className="text-gray-600 text-sm mb-4">
               Esta comparativa corresponde a la edición 2025. Nuestra guía 2026 incluye nuevos modelos probados,
               precios actualizados y el lumeor LyraX Pro como elección #1 a 49€.
@@ -170,7 +170,7 @@ export default function HidropulsadorDental2025() {
         </section>
 
         {/* CTA to updated version */}
-        <section className="py-12 bg-gradient-to-r from-blue-600 to-sky-600 rounded-2xl text-center mb-8">
+        <section className="py-12 bg-blue-600 rounded-2xl text-center mb-8">
           <div className="px-8">
             <h2 className="text-2xl font-bold text-white mb-4">
               ¿Buscas la guía más actualizada?
@@ -180,7 +180,7 @@ export default function HidropulsadorDental2025() {
             </p>
             <Link
               href="/comparativa-hidropulsadores-dentales-2026"
-              className="inline-block bg-white text-blue-700 font-bold py-4 px-10 rounded-full text-lg transition-all hover:shadow-xl hover:scale-105"
+              className="inline-block bg-white text-blue-700 font-bold py-4 px-10 rounded-full text-lg transition-all hover:shadow-md hover:scale-105"
             >
               Ver la comparativa hidropulsadores 2026 →
             </Link>

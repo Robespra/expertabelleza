@@ -35,7 +35,7 @@ export default function DepiladoraIPLHombre() {
           "@type": "Article",
           headline: "Mejor depiladora de luz pulsada IPL para hombre 2026: comparativa completa",
           description:
-            "Comparativa de las mejores depiladoras de luz pulsada IPL para hombre en 2026 — pecho, espalda, piernas. ¿Qué dispositivos funcionan de verdad?",
+            "Comparativa de las mejores depiladoras de luz pulsada IPL para hombre en 2026: pecho, espalda, piernas. ¿Qué dispositivos funcionan de verdad?",
           image: "https://expertabelleza.es/images/comparatif_epilateurs_men_header2026.jpg",
           datePublished: "2026-04-12T09:00:00+02:00",
           dateModified: "2026-04-12T09:00:00+02:00",
@@ -86,7 +86,7 @@ export default function DepiladoraIPLHombre() {
               name: "¿Cuántas sesiones se necesitan para ver resultados en el pecho?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "Los primeros resultados visibles —reducción de densidad y ralentización del crecimiento del vello— aparecen generalmente tras 4 a 6 semanas de sesiones semanales. El pecho es una zona densa, por lo que conviene planificar entre 8 y 12 sesiones para un resultado completo.",
+                text: "Los primeros resultados visibles, con reducción de densidad y ralentización del crecimiento del vello, aparecen generalmente tras 4 a 6 semanas de sesiones semanales. El pecho es una zona densa, por lo que conviene planificar entre 8 y 12 sesiones para un resultado completo.",
               },
             },
             {
@@ -94,7 +94,7 @@ export default function DepiladoraIPLHombre() {
               name: "¿La IPL duele para un hombre?",
               acceptedAnswer: {
                 "@type": "Answer",
-                text: "El vello masculino es más grueso, por lo que la IPL puede generar más calor y molestias que con vello fino. Un dispositivo con enfriamiento por zafiro activo, como el lumeor Luxe K, neutraliza este calor en tiempo real — la diferencia es significativa.",
+                text: "El vello masculino es más grueso, por lo que la IPL puede generar más calor y molestias que con vello fino. Un dispositivo con enfriamiento por zafiro activo, como el lumeor Luxe K, neutraliza este calor en tiempo real, y la diferencia es significativa.",
               },
             },
             {
@@ -159,7 +159,7 @@ export default function DepiladoraIPLHombre() {
               priority
             />
             <div className="absolute top-4 left-4 flex flex-col gap-2">
-              <span className="bg-green-600 text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">
+              <span className="bg-green-600 text-white px-3 py-2 rounded-full text-sm font-semibold">
                 ✨ Guía Experta 2026
               </span>
             </div>
@@ -171,7 +171,7 @@ export default function DepiladoraIPLHombre() {
           </h1>
 
           <p className="text-xl text-gray-600 leading-relaxed mb-8">
-            Pecho, espalda, piernas, contorno de barba — la IPL funciona en todas estas zonas.
+            Pecho, espalda, piernas, contorno de barba: la IPL funciona en todas estas zonas.
             Aquí están los dispositivos probados, del más asequible al más eficaz, con los precios
             reales del mercado.
           </p>
@@ -206,7 +206,7 @@ export default function DepiladoraIPLHombre() {
           <div className="bg-gray-50 border-l-4 border-gray-400 rounded-r-xl p-6 mb-8">
             <p className="text-gray-700 leading-relaxed mb-3">
               La depilación masculina con luz pulsada ya no es un fenómeno minoritario. Una parte
-              creciente de las ventas de depiladoras de luz pulsada en España corresponde a hombres — principalmente
+              creciente de las ventas de depiladoras de luz pulsada en España corresponde a hombres, principalmente
               para el pecho, la espalda y las piernas. La razón es simple: afeitarse o depilarse manualmente
               cada semana lleva mucho tiempo, y las sesiones láser en centro de estética cuestan entre 800 y 1.200€
               para un protocolo completo.
@@ -216,7 +216,7 @@ export default function DepiladoraIPLHombre() {
               en 8 a 12 sesiones, y un mantenimiento mínimo después.
             </p>
             <p className="text-gray-700 leading-relaxed font-medium text-gray-900">
-              ⚠️ Aviso importante: este artículo cubre los dispositivos para el cuerpo —
+              ⚠️ Aviso importante: este artículo cubre los dispositivos para el cuerpo,
               no la barba completa, para la cual la IPL no está indicada (densidad del vello
               demasiado elevada, riesgo real de quemaduras).
             </p>
@@ -253,7 +253,7 @@ export default function DepiladoraIPLHombre() {
               <h3 className="font-bold text-red-800 mb-4 text-lg">❌ Zonas contraindicadas</h3>
               <ul className="space-y-2 text-gray-700">
                 {[
-                  ["Barba completa", "densidad demasiado elevada — riesgo de quemaduras"],
+                  ["Barba completa", "densidad demasiado elevada, riesgo de quemaduras"],
                   ["Cuero cabelludo", "contraindicado"],
                   ["Zonas tatuadas", "el pigmento absorbe la energía lumínica"],
                   ["Lunares", "evitar sistemáticamente"],
@@ -263,7 +263,7 @@ export default function DepiladoraIPLHombre() {
                     <span className="text-red-500 font-bold mt-0.5">✗</span>
                     <span>
                       <strong>{zona}</strong>
-                      {razon && <span className="text-gray-500 text-sm"> — {razon}</span>}
+                      {razon && <span className="text-gray-500 text-sm">: {razon}</span>}
                     </span>
                   </li>
                 ))}
@@ -272,7 +272,7 @@ export default function DepiladoraIPLHombre() {
               <div className="mt-4 p-3 bg-red-100 rounded-lg">
                 <p className="text-red-800 text-xs font-medium">
                   La barba completa es la contraindicación más frecuentemente ignorada.
-                  La densidad del vello genera un riesgo real de quemaduras — incluso con los
+                  La densidad del vello genera un riesgo real de quemaduras, incluso con los
                   dispositivos más potentes.
                 </p>
               </div>
@@ -282,13 +282,13 @@ export default function DepiladoraIPLHombre() {
 
         <section id="tabla" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-2">
-            Tabla comparativa — depiladoras de luz pulsada IPL para hombre 2026
+            Tabla comparativa: depiladoras de luz pulsada IPL para hombre 2026
           </h2>
           <p className="text-gray-500 text-sm mb-6">
-            5 dispositivos probados — del más asequible al más premium.
+            5 dispositivos probados, del más asequible al más premium.
           </p>
 
-          <div className="overflow-x-auto rounded-2xl shadow-lg">
+          <div className="overflow-x-auto rounded-2xl border border-gray-200">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-gray-900 text-white">
@@ -312,7 +312,7 @@ export default function DepiladoraIPLHombre() {
                       💰 Mejor precio para empezar
                     </span>
                   </td>
-                  <td className="px-4 py-5 text-center font-bold text-blue-700 text-base">79€</td>
+                  <td className="px-4 py-5 text-center font-bold text-blue-700 text-base">89€</td>
                   <td className="px-4 py-5 text-center text-xl">❌</td>
                   <td className="px-4 py-5 text-center text-gray-700 hidden sm:table-cell">8–10 J/cm²</td>
                   <td className="px-4 py-5 text-center text-gray-700 hidden md:table-cell">10–15 min</td>
@@ -381,7 +381,7 @@ export default function DepiladoraIPLHombre() {
               El vello masculino es por término medio entre 2 y 3 veces más grueso que el femenino.
               No es solo una cuestión estética: tiene un impacto directo en la experiencia IPL.
               Cuando el pulso luminoso actúa sobre un vello grueso y denso, la cantidad
-              de energía absorbida por el folículo piloso es mayor — y el calor generado en la
+              de energía absorbida por el folículo piloso es mayor, y el calor generado en la
               superficie de la piel también.
             </p>
             <p className="text-gray-700 leading-relaxed mb-4">
@@ -397,7 +397,7 @@ export default function DepiladoraIPLHombre() {
             </p>
             <p className="text-gray-700 leading-relaxed">
               Por eso el <strong>lumeor Luxe K a 139€ es nuestra recomendación principal para
-              los hombres</strong> — y no solo por razones de precio.
+              los hombres</strong>, y no solo por razones de precio.
               El Ulike Air 3 propone la misma tecnología de zafiro, pero a 260€. El Luxe K ofrece
               el mismo confort por 121€ menos.
             </p>
@@ -423,13 +423,13 @@ export default function DepiladoraIPLHombre() {
           </h2>
 
           {/* Luxe K */}
-          <div className="rounded-2xl shadow-xl p-6 sm:p-8 mb-10 border-4 border-green-500 bg-gradient-to-br from-green-50 to-emerald-50 relative overflow-hidden">
+          <div className="rounded-2xl p-6 sm:p-8 mb-10 border-4 border-green-500 bg-green-50 relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-green-600 text-white px-5 py-2 rounded-bl-2xl font-bold text-sm">
               ⭐ NUESTRA ELECCIÓN PARA HOMBRES
             </div>
 
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3 pr-36">
-              <h3 className="text-2xl font-bold text-gray-900">lumeor Luxe K — depilación IPL para hombre</h3>
+              <h3 className="text-2xl font-bold text-gray-900">lumeor Luxe K: depilación IPL para hombre</h3>
               <div className="flex items-center gap-3">
                 <span className="text-2xl font-bold text-green-700">139€</span>
                 <span className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-bold">9,5/10</span>
@@ -466,12 +466,12 @@ export default function DepiladoraIPLHombre() {
                       ["Zafiro activo", "neutraliza el calor del vello grueso masculino en tiempo real"],
                       ["12–14 J/cm²", "potencia eficaz en pecho, espalda y hombros"],
                       ["8–10 min", "cuerpo entero en modo destello automático"],
-                      ["999.999 destellos", "más de 10 años de uso — sin necesidad de reponer"],
+                      ["999.999 destellos", "más de 10 años de uso, sin necesidad de reponer"],
                       ["139€", "misma tecnología de zafiro que el Ulike Air 3 a 121€ menos"],
                     ].map(([label, value]) => (
                       <li key={label} className="flex items-start gap-2">
                         <span className="text-green-600 font-bold mt-0.5">✓</span>
-                        <span><strong>{label}</strong> — {value}</span>
+                        <span><strong>{label}</strong>: {value}</span>
                       </li>
                     ))}
                   </ul>
@@ -495,7 +495,7 @@ export default function DepiladoraIPLHombre() {
                   <div>
                     <h4 className="font-semibold text-green-700 mb-2 text-sm">✅ Puntos fuertes</h4>
                     <ul className="space-y-1 text-sm text-gray-600">
-                      <li>• Zafiro activo — imprescindible en vello grueso</li>
+                      <li>• Zafiro activo, imprescindible en vello grueso</li>
                       <li>• Sesiones cortas (8–10 min)</li>
                       <li>• Pantalla LCD + contador de destellos</li>
                       <li>• Servicio posventa, garantía 2 años</li>
@@ -514,26 +514,26 @@ export default function DepiladoraIPLHombre() {
                   href={LUXEK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full text-center py-4 rounded-xl font-bold text-lg shadow-lg transition-colors"
+                  className="block w-full text-center py-4 rounded-xl font-bold text-lg shadow-sm hover:shadow-md transition-colors"
                   style={{ backgroundColor: "#FBBF24", color: "#000000" }}
                   onClick={() => trackClick("luxek_analysis_hombre")}
                 >
-                  Ver el lumeor Luxe K — 139€ · Envío gratuito
+                  Ver el lumeor Luxe K: 139€ · Envío gratuito
                 </a>
               </div>
             </div>
           </div>
 
           {/* Pulse Pro II */}
-          <div className="rounded-2xl shadow-xl p-6 sm:p-8 mb-10 border-4 border-blue-400 bg-gradient-to-br from-blue-50 to-sky-50 relative overflow-hidden">
+          <div className="rounded-2xl p-6 sm:p-8 mb-10 border-4 border-blue-400 bg-blue-50 relative overflow-hidden">
             <div className="absolute top-0 right-0 bg-blue-600 text-white px-5 py-2 rounded-bl-2xl font-bold text-sm">
               💰 MEJOR PRECIO
             </div>
 
             <div className="flex items-center justify-between mb-6 flex-wrap gap-3 pr-36">
-              <h3 className="text-2xl font-bold text-gray-900">lumeor Pulse Pro II — depilación de luz pulsada para hombre</h3>
+              <h3 className="text-2xl font-bold text-gray-900">lumeor Pulse Pro II: depilación de luz pulsada para hombre</h3>
               <div className="flex items-center gap-3">
-                <span className="text-2xl font-bold text-blue-700">79€</span>
+                <span className="text-2xl font-bold text-blue-700">89€</span>
                 <span className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">8/10</span>
               </div>
             </div>
@@ -565,14 +565,14 @@ export default function DepiladoraIPLHombre() {
                   <h4 className="font-bold text-blue-800 mb-3">💡 Ideal para probar la IPL sin gran inversión:</h4>
                   <ul className="space-y-2 text-sm text-gray-700">
                     {[
-                      ["79€", "el punto de entrada más asequible del mercado"],
+                      ["89€", "el punto de entrada más asequible del mercado"],
                       ["8–10 J/cm²", "potencia suficiente en vello de densidad moderada"],
                       ["990.000 destellos", "más de 10 años de uso sin reemplazo"],
                       ["Pantalla LCD", "control preciso de la intensidad (5 niveles)"],
                     ].map(([label, value]) => (
                       <li key={label} className="flex items-start gap-2">
                         <span className="text-blue-600 font-bold mt-0.5">✓</span>
-                        <span><strong>{label}</strong> — {value}</span>
+                        <span><strong>{label}</strong>: {value}</span>
                       </li>
                     ))}
                   </ul>
@@ -580,7 +580,7 @@ export default function DepiladoraIPLHombre() {
 
                 <div className="bg-amber-50 border border-amber-300 rounded-xl p-4 mb-5">
                   <p className="text-amber-800 text-sm font-medium">
-                    ⚠️ Sin enfriamiento por zafiro — más adecuado para hombres con vello de
+                    ⚠️ Sin enfriamiento por zafiro, más adecuado para hombres con vello de
                     densidad moderada o piel poco sensible. En zonas muy densas
                     (pecho grueso, espalda), el Luxe K será más cómodo.
                   </p>
@@ -590,7 +590,7 @@ export default function DepiladoraIPLHombre() {
                   <div>
                     <h4 className="font-semibold text-green-700 mb-2 text-sm">✅ Puntos fuertes</h4>
                     <ul className="space-y-1 text-sm text-gray-600">
-                      <li>• Precio imbatible — 79€</li>
+                      <li>• Precio imbatible: 89€</li>
                       <li>• 990.000 destellos (más de 10 años)</li>
                       <li>• Pantalla LCD, 5 niveles de intensidad</li>
                       <li>• Servicio posventa, garantía 2 años</li>
@@ -610,11 +610,11 @@ export default function DepiladoraIPLHombre() {
                   href={PULSEPRO_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block w-full text-center py-4 rounded-xl font-bold text-lg shadow-lg transition-colors"
+                  className="block w-full text-center py-4 rounded-xl font-bold text-lg shadow-sm hover:shadow-md transition-colors"
                   style={{ backgroundColor: "#3B82F6", color: "#ffffff" }}
                   onClick={() => trackClick("pulsepro_analysis_hombre")}
                 >
-                  Ver el lumeor Pulse Pro II — 79€
+                  Ver el lumeor Pulse Pro II: 89€
                 </a>
               </div>
             </div>
@@ -622,7 +622,7 @@ export default function DepiladoraIPLHombre() {
 
           {/* Grid para los otros 3 */}
           <div className="grid lg:grid-cols-2 gap-8">
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Ulike Air 3</h3>
                 <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">8/10</span>
@@ -643,7 +643,7 @@ export default function DepiladoraIPLHombre() {
               <p className="text-xs text-gray-500 italic">Para quién: presupuesto disponible, máxima comodidad prioritaria sobre el precio.</p>
             </div>
 
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Braun Silk Expert Pro 5</h3>
                 <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">7/10</span>
@@ -664,7 +664,7 @@ export default function DepiladoraIPLHombre() {
               <p className="text-xs text-gray-500 italic">Para quién: fiel a la marca Braun, con vello fino a moderado.</p>
             </div>
 
-            <div className="lg:col-span-2 bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="lg:col-span-2 bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Philips Lumea 9000</h3>
                 <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">7/10</span>
@@ -697,23 +697,23 @@ export default function DepiladoraIPLHombre() {
               Nuestro veredicto para los hombres en 2026
             </h2>
             <p className="text-gray-300 leading-relaxed mb-4">
-              La depilación IPL funciona perfectamente sobre el vello masculino — siempre que se
+              La depilación IPL funciona perfectamente sobre el vello masculino, siempre que se
               elija el dispositivo adecuado. Los modelos sin enfriamiento por zafiro (Philips, Braun)
               dan buenos resultados pero resultan incómodos en zonas densas como el pecho
               o la espalda. A sus precios, es difícil recomendarlos.
             </p>
             <p className="text-gray-300 leading-relaxed mb-6">
               En 2026, dos dispositivos lumeor destacan claramente para los hombres:{" "}
-              el <strong>Pulse Pro II a 79€</strong> para quienes quieren probar la IPL sin gran
+              el <strong>Pulse Pro II a 89€</strong> para quienes quieren probar la IPL sin gran
               compromiso, y el <strong>Luxe K a 139€</strong> para quienes quieren
-              el confort del zafiro — imprescindible en el vello grueso masculino — a un precio
+              el confort del zafiro, imprescindible en el vello grueso masculino, a un precio
               que el Ulike Air 3 no puede igualar (260€ por la misma tecnología).
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8">
               {[
-                { value: "79€", label: "Pulse Pro II — para empezar" },
-                { value: "139€", label: "Luxe K — con zafiro" },
+                { value: "89€", label: "Pulse Pro II: para empezar" },
+                { value: "139€", label: "Luxe K: con zafiro" },
                 { value: "4–6 sem", label: "Resultados pecho" },
                 { value: "10+ años", label: "Vida útil" },
               ].map((stat) => (
@@ -729,23 +729,23 @@ export default function DepiladoraIPLHombre() {
                 href={PULSEPRO_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-center py-4 rounded-2xl font-bold text-lg shadow-xl transition-colors"
+                className="block text-center py-4 rounded-2xl font-bold text-lg shadow-sm hover:shadow-md transition-colors"
                 style={{ backgroundColor: "#3B82F6", color: "#ffffff" }}
                 onClick={() => trackClick("pulsepro_verdict_hombre")}
               >
                 lumeor Pulse Pro II<br />
-                <span className="text-sm font-normal opacity-90">79€ — Mejor precio</span>
+                <span className="text-sm font-normal opacity-90">89€ · Mejor precio</span>
               </a>
               <a
                 href={LUXEK_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block text-center py-4 rounded-2xl font-bold text-lg shadow-xl transition-colors relative"
+                className="block text-center py-4 rounded-2xl font-bold text-lg shadow-sm hover:shadow-md transition-colors relative"
                 style={{ backgroundColor: "#FBBF24", color: "#000000" }}
                 onClick={() => trackClick("luxek_verdict_hombre")}
               >
                 lumeor Luxe K ⭐<br />
-                <span className="text-sm font-normal opacity-80">139€ — Recomendado para hombres</span>
+                <span className="text-sm font-normal opacity-80">139€ · Recomendado para hombres</span>
               </a>
             </div>
             <p className="text-center text-gray-500 text-xs mt-3">
@@ -756,17 +756,17 @@ export default function DepiladoraIPLHombre() {
 
         <section id="faq" className="mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
-            Preguntas frecuentes — depiladora de luz pulsada IPL para hombre
+            Preguntas frecuentes: depiladora de luz pulsada IPL para hombre
           </h2>
           <div className="space-y-4">
             {[
               {
                 q: "¿La IPL es eficaz sobre el vello grueso de los hombres?",
-                a: "Sí, la IPL es eficaz sobre el vello masculino, incluido el más grueso. El vello más grueso absorbe más energía lumínica, lo que hace el proceso eficaz — pero también genera más calor. Por eso un dispositivo con enfriamiento por zafiro es aún más útil para los hombres que para las mujeres.",
+                a: "Sí, la IPL es eficaz sobre el vello masculino, incluido el más grueso. El vello más grueso absorbe más energía lumínica, lo que hace el proceso eficaz, pero también genera más calor. Por eso un dispositivo con enfriamiento por zafiro es aún más útil para los hombres que para las mujeres.",
               },
               {
                 q: "¿Puedo usar la IPL para eliminar mi barba?",
-                a: "No. La IPL está contraindicada en la barba completa. La densidad del vello es demasiado elevada: el riesgo de quemaduras es real y documentado. En cambio, la IPL puede usarse para perfilar el contorno de la barba o tratar el cuello — zonas con una densidad normal.",
+                a: "No. La IPL está contraindicada en la barba completa. La densidad del vello es demasiado elevada: el riesgo de quemaduras es real y documentado. En cambio, la IPL puede usarse para perfilar el contorno de la barba o tratar el cuello, zonas con una densidad normal.",
               },
               {
                 q: "¿Qué zona tratar primero?",
@@ -774,11 +774,11 @@ export default function DepiladoraIPLHombre() {
               },
               {
                 q: "¿Cuántas sesiones se necesitan para ver resultados en el pecho?",
-                a: "Los primeros resultados visibles —reducción de densidad y ralentización del crecimiento del vello— aparecen tras 4 a 6 semanas de sesiones semanales. El pecho es una zona densa, así que conviene prever entre 8 y 12 sesiones para un resultado completo y duradero.",
+                a: "Los primeros resultados visibles, con reducción de densidad y ralentización del crecimiento del vello, aparecen tras 4 a 6 semanas de sesiones semanales. El pecho es una zona densa, así que conviene prever entre 8 y 12 sesiones para un resultado completo y duradero.",
               },
               {
                 q: "¿La IPL duele para un hombre?",
-                a: "Sin enfriamiento, la IPL puede resultar incómoda en zonas de vello grueso (pecho, espalda). Con un dispositivo de zafiro activo como el lumeor Luxe K, la sensación se reduce notablemente — la placa fría neutraliza el calor generado por el destello en tiempo real. La mayoría de los usuarios lo describen como un ligero cosquilleo.",
+                a: "Sin enfriamiento, la IPL puede resultar incómoda en zonas de vello grueso (pecho, espalda). Con un dispositivo de zafiro activo como el lumeor Luxe K, la sensación se reduce notablemente: la placa fría neutraliza el calor generado por el destello en tiempo real. La mayoría de los usuarios lo describen como un ligero cosquilleo.",
               },
               {
                 q: "¿Puedo usar la depiladora de mi pareja?",
@@ -803,18 +803,18 @@ export default function DepiladoraIPLHombre() {
             href={PULSEPRO_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-center py-5 rounded-2xl font-bold text-lg shadow-lg transition-colors"
+            className="block text-center py-5 rounded-2xl font-bold text-lg shadow-sm hover:shadow-md transition-colors"
             style={{ backgroundColor: "#3B82F6", color: "#ffffff" }}
             onClick={() => trackClick("pulsepro_footer_hombre")}
           >
             lumeor Pulse Pro II<br />
-            <span className="text-sm font-normal opacity-90">79€ · Envío gratuito</span>
+            <span className="text-sm font-normal opacity-90">89€ · Envío gratuito</span>
           </a>
           <a
             href={LUXEK_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="block text-center py-5 rounded-2xl font-bold text-lg shadow-lg transition-colors"
+            className="block text-center py-5 rounded-2xl font-bold text-lg shadow-sm hover:shadow-md transition-colors"
             style={{ backgroundColor: "#FBBF24", color: "#000000" }}
             onClick={() => trackClick("luxek_footer_hombre")}
           >

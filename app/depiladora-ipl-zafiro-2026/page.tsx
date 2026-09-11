@@ -133,7 +133,7 @@ export default function DepiladoraIPLZafiro() {
               priority
             />
             <div className="absolute top-4 left-4">
-              <span className="bg-green-600 text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">
+              <span className="bg-green-600 text-white px-3 py-2 rounded-full text-sm font-semibold">
                 Guía Experta 2026
               </span>
             </div>
@@ -146,7 +146,7 @@ export default function DepiladoraIPLZafiro() {
 
           <p className="text-xl text-gray-600 leading-relaxed mb-8">
             La tecnología de enfriamiento por zafiro reduce las molestias a la mitad. Aquí están los únicos
-            dispositivos de luz pulsada que la incorporan de verdad — y cuál ofrece la mejor
+            dispositivos de luz pulsada que la incorporan de verdad, y cuál ofrece la mejor
             relación calidad-precio.
           </p>
 
@@ -182,7 +182,7 @@ export default function DepiladoraIPLZafiro() {
           <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-6 mb-8">
             <p className="text-gray-700 leading-relaxed mb-3">
               Llevo 6 años usando depiladoras de luz pulsada. Y puedo deciros algo: la mayoría de los
-              dispositivos por debajo de 200€ que he probado me han decepcionado — no porque la
+              dispositivos por debajo de 200€ que he probado me han decepcionado, no porque la
               luz pulsada no funcione, sino porque se calientan, a veces generan molestias, y
               acabas abandonando el protocolo tras 3 sesiones.
             </p>
@@ -190,7 +190,7 @@ export default function DepiladoraIPLZafiro() {
               El enfriamiento por zafiro cambia realmente las cosas. No es marketing:
               es una ventana de cristal de zafiro que permanece fría durante el destello. La
               diferencia al tacto es inmediata. Y cuando la depilación deja de ser incómoda, se
-              mantiene el protocolo — y se obtienen resultados.
+              mantiene el protocolo, y se obtienen resultados.
             </p>
             <p className="text-gray-700 leading-relaxed">
               En esta comparativa he seleccionado las 4 depiladoras de luz pulsada IPL
@@ -208,7 +208,7 @@ export default function DepiladoraIPLZafiro() {
             href={lumeor_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="block bg-white rounded-2xl shadow-xl p-2 sm:p-6 border-4 border-green-500 relative overflow-hidden hover:shadow-2xl transition-all duration-300"
+            className="block bg-white rounded-2xl p-2 sm:p-6 border-4 border-green-500 relative overflow-hidden transition-all duration-300"
             onClick={() => trackClick("lumeor_hero_card")}
           >
             <div
@@ -220,7 +220,7 @@ export default function DepiladoraIPLZafiro() {
 
             <div className="grid md:grid-cols-5 gap-6 items-center">
               <div className="flex justify-center order-1 md:order-2 md:col-span-2">
-                <div style={{ background: "linear-gradient(145deg, #F9CDE0 0%, #fdebf3 100%)" }} className="p-4 rounded-2xl w-full">
+                <div style={{ backgroundColor: "#fdebf3" }} className="p-4 rounded-2xl w-full">
                   <Image
                     width={320}
                     height={380}
@@ -254,7 +254,7 @@ export default function DepiladoraIPLZafiro() {
                   <span className="text-gray-600 font-medium">4,9/5 • 95% satisfechas</span>
                 </div>
 
-                <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-5 mb-5">
+                <div className="bg-green-50 rounded-xl p-5 mb-5">
                   <h4 className="font-bold text-green-800 mb-3 text-lg">Por qué es nuestra #1:</h4>
                   <ul className="space-y-2">
                     {[
@@ -266,7 +266,7 @@ export default function DepiladoraIPLZafiro() {
                     ].map(([label, value]) => (
                       <li key={label} className="flex items-start">
                         <span className="text-green-600 mr-2 font-bold mt-0.5">•</span>
-                        <span className="text-gray-700"><strong>{label}</strong> — {value}</span>
+                        <span className="text-gray-700"><strong>{label}</strong>: {value}</span>
                       </li>
                     ))}
                   </ul>
@@ -288,18 +288,18 @@ export default function DepiladoraIPLZafiro() {
                   </div>
                 </div>
 
-                <div className="text-center py-4 rounded-xl font-bold text-lg shadow-lg" style={{ backgroundColor: "#FBBF24", color: "#000000" }}>
-                  Ver el lumeor Luxe K — 139€
+                <div className="text-center py-4 rounded-xl font-bold text-lg shadow-sm" style={{ backgroundColor: "#FBBF24", color: "#000000" }}>
+                  Ver el lumeor Luxe K: 139€
                 </div>
               </div>
             </div>
           </a>
 
-          <div className="bg-white rounded-2xl shadow-lg p-6 sm:p-8 mt-8">
+          <div className="bg-white rounded-2xl border border-gray-200 p-6 sm:p-8 mt-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Análisis detallado del lumeor Luxe K</h3>
             <p className="text-gray-700 leading-relaxed mb-4">
               El lumeor Luxe K está pensado para quienes están cansadas de dispositivos de gama
-              baja que decepcionan — o que dudan entre una depiladora de luz pulsada doméstica y una sesión
+              baja que decepcionan, o que dudan entre una depiladora de luz pulsada doméstica y una sesión
               láser a 200€. Integra el <strong>mismo enfriamiento por zafiro activo que el Ulike Air 3</strong>,
               a mitad de precio, y con casi el doble de destellos.
             </p>
@@ -365,7 +365,7 @@ export default function DepiladoraIPLZafiro() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 mb-6">
+            <div className="bg-green-50 rounded-lg p-6 mb-6">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center text-green-800 font-bold text-lg flex-shrink-0">C</div>
                 <div>
@@ -380,7 +380,7 @@ export default function DepiladoraIPLZafiro() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-green-100 to-emerald-100 rounded-2xl p-8 mb-6">
+            <div className="bg-green-100 rounded-2xl p-8 mb-6">
               <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">Ventaja única: pantalla LCD inteligente y enfriamiento por zafiro</h4>
               <p className="text-gray-700 mb-6 text-center">
                 El LUXE K integra una pantalla LCD profesional. Esta diferencia tecnológica
@@ -406,7 +406,7 @@ export default function DepiladoraIPLZafiro() {
                 href={lumeor_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block font-bold py-4 px-10 rounded-full shadow-lg hover:shadow-xl transition-all"
+                className="inline-block font-bold py-4 px-10 rounded-full shadow-sm hover:shadow-md transition-all"
                 style={{ backgroundColor: "#FBBF24", color: "#000000" }}
                 onClick={() => trackClick("lumeor_detailed_analysis")}
               >
@@ -422,7 +422,7 @@ export default function DepiladoraIPLZafiro() {
           <div className="grid lg:grid-cols-2 gap-8">
 
             {/* #2 Ulike Air 3 / Air 10 */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Ulike Air 3 / Air 10</h3>
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-bold">#2</span>
@@ -506,7 +506,7 @@ export default function DepiladoraIPLZafiro() {
             </div>
 
             {/* #3 Bodysiam Elite */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Bodysiam Elite</h3>
                 <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-bold">#3</span>
@@ -568,7 +568,7 @@ export default function DepiladoraIPLZafiro() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Sin zafiro : Ningún enfriamiento activo — sesiones más incómodas en pieles sensibles.",
+                      "Sin zafiro : ningún enfriamiento activo, sesiones más incómodas en pieles sensibles.",
                       "Potencia inferior : Menor energía que el Luxe K, resultados que tardan más en aparecer.",
                       "Precio poco justificado : 179€ frente a 139€ del Luxe K, que ofrece zafiro y más destellos.",
                       "Notoriedad limitada : Pocas valoraciones verificadas (~200), lo que dificulta una evaluación objetiva."
@@ -588,7 +588,7 @@ export default function DepiladoraIPLZafiro() {
             </div>
 
             {/* #4 OhMySkin */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">OhMySkin</h3>
                 <span className="bg-pink-100 text-pink-800 px-3 py-1 rounded-full text-sm font-bold">#4</span>
@@ -650,7 +650,7 @@ export default function DepiladoraIPLZafiro() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Sin zafiro : Ausencia total de enfriamiento activo — molestias notables en pieles sensibles.",
+                      "Sin zafiro : ausencia total de enfriamiento activo, molestias notables en pieles sensibles.",
                       "Precio no justificado : 199€ frente a 139€ del Luxe K, que ofrece zafiro, más potencia y más destellos.",
                       "Resultados lentos : 10 a 12 semanas antes de resultados visibles, muy por debajo del Luxe K (3–4 semanas).",
                       "Pocas opiniones : Solo ~150 opiniones disponibles, lo que dificulta evaluar la fiabilidad a largo plazo."
@@ -670,7 +670,7 @@ export default function DepiladoraIPLZafiro() {
             </div>
 
             {/* #5 no!no! Pro IPL */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">no!no! Pro IPL</h3>
                 <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold">#5</span>
@@ -754,7 +754,7 @@ export default function DepiladoraIPLZafiro() {
             </div>
 
             {/* #6 Braun Silk Expert Pro 5 */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Braun Silk Expert Pro 5</h3>
                 <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-bold">#6</span>
@@ -817,7 +817,7 @@ export default function DepiladoraIPLZafiro() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Sin zafiro : Ningún enfriamiento activo — la depilación sigue siendo incómoda en pieles sensibles.",
+                      "Sin zafiro : ningún enfriamiento activo, la depilación sigue siendo incómoda en pieles sensibles.",
                       "Precio elevado : 325€, más del doble del precio del Luxe K, para resultados similares.",
                       "Potencia baja : Solo 4 J/cm² frente a 12–14 J/cm² del Luxe K.",
                       "Resultados más lentos : Necesita 10–12 semanas frente a 3–4 semanas del Luxe K."
@@ -837,7 +837,7 @@ export default function DepiladoraIPLZafiro() {
             </div>
 
             {/* #7 Philips Lumea 9000 */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl p-6 border-2 border-gray-200">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-bold text-gray-900">Philips Lumea 9000</h3>
                 <span className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm font-bold">#7</span>
@@ -901,8 +901,8 @@ export default function DepiladoraIPLZafiro() {
                   <ul className="space-y-3">
                     {[
                       "Precio excesivo : 580€, más de 4 veces el precio del Luxe K, para resultados comparables.",
-                      "Sin zafiro : Ningún enfriamiento activo — la depilación sigue siendo incómoda en pieles sensibles.",
-                      "Potencia no comunicada : Philips no revela los J/cm² — imposible comparar objetivamente.",
+                      "Sin zafiro : ningún enfriamiento activo, la depilación sigue siendo incómoda en pieles sensibles.",
+                      "Potencia no comunicada : Philips no revela los J/cm², imposible comparar objetivamente.",
                       "Resultados lentos : Necesita 12–16 semanas frente a 3–4 semanas para ver los primeros resultados."
                     ].map((disadvantage, index) => {
                       const boldPart = disadvantage.split(' : ')[0];
@@ -923,10 +923,10 @@ export default function DepiladoraIPLZafiro() {
         </section>
 
         <section id="tabla" className="mb-16">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">Tabla comparativa — depiladoras de luz pulsada IPL 2026</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">Tabla comparativa: depiladoras de luz pulsada IPL 2026</h2>
           <p className="text-gray-500 text-sm mb-6">Solo se recomiendan los dispositivos con enfriamiento por zafiro activo.</p>
 
-          <div className="overflow-x-auto rounded-2xl shadow-lg">
+          <div className="overflow-x-auto rounded-2xl border border-gray-200">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-gray-900 text-white">
@@ -1020,7 +1020,7 @@ export default function DepiladoraIPLZafiro() {
           <div className="bg-blue-50 rounded-2xl p-8">
             <p className="text-gray-700 leading-relaxed mb-4">
               Cuando una depiladora de luz pulsada IPL emite un destello, actúa sobre la raíz
-              del vello apuntando a la melanina. Este proceso es eficaz — pero también genera
+              del vello apuntando a la melanina. Este proceso es eficaz, pero también genera
               calor percibido en la superficie de la piel, responsable de la sensación de
               quemazón que muchas temen.
             </p>
@@ -1034,11 +1034,11 @@ export default function DepiladoraIPLZafiro() {
             <p className="text-gray-700 leading-relaxed mb-4">
               Esta tecnología estuvo reservada durante mucho tiempo a los dispositivos profesionales
               de centros de estética. Ulike la democratizó a ~349€ (Air 10). El lumeor Luxe K la integra
-              ahora a 139€ — es decir, dos veces más barata por una tecnología idéntica.
+              ahora a 139€, es decir, dos veces más barata por una tecnología idéntica.
             </p>
             <p className="text-gray-700 leading-relaxed">
               No es un accesorio prescindible: sin molestias, se mantiene el protocolo. Y es el
-              protocolo — 8 a 12 sesiones semanales — el que marca la diferencia real entre
+              protocolo, 8 a 12 sesiones semanales, el que marca la diferencia real entre
               un resultado duradero y un dispositivo que acaba en un cajón.
             </p>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
@@ -1061,11 +1061,11 @@ export default function DepiladoraIPLZafiro() {
             <h2 className="text-3xl font-bold mb-6">Nuestro veredicto: el lumeor Luxe K se impone</h2>
             <p className="text-gray-300 leading-relaxed mb-4">
               Tras probar estos siete dispositivos, la conclusión es clara. El no!no! Pro IPL
-              y el Braun Silk Expert Pro 5 — sin enfriamiento por zafiro — ofrecen resultados
+              y el Braun Silk Expert Pro 5, sin enfriamiento por zafiro, ofrecen resultados
               correctos, pero imponen una experiencia menos cómoda por un precio bastante más elevado.
             </p>
             <p className="text-gray-300 leading-relaxed mb-4">
-              El Ulike Air 3 / Air 10 integra la tecnología de zafiro — pero a 349€ con resultados
+              El Ulike Air 3 / Air 10 integra la tecnología de zafiro, pero a 349€ con resultados
               decepcionantes y valoraciones de 3,8/5, pierde todo su atractivo frente al lumeor Luxe K: mismo
               enfriamiento por zafiro, potencia de 12–14 J/cm², y 999.999 destellos para más de 10
               años de uso por solo 139€.
@@ -1092,11 +1092,11 @@ export default function DepiladoraIPLZafiro() {
               href={lumeor_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center py-5 rounded-2xl font-bold text-xl shadow-xl"
+              className="block w-full text-center py-5 rounded-2xl font-bold text-xl shadow-sm hover:shadow-md transition-shadow"
               style={{ backgroundColor: "#FBBF24", color: "#000000" }}
               onClick={() => trackClick("lumeor_verdict_cta")}
             >
-              Ver el lumeor Luxe K — 139€
+              Ver el lumeor Luxe K: 139€
             </a>
             <p className="text-center text-gray-500 text-xs mt-3">Envío gratuito · Garantía 2 años · Derecho de desistimiento 14 días</p>
           </div>
@@ -1141,9 +1141,9 @@ export default function DepiladoraIPLZafiro() {
         </section>
 
         {/* Sección CTA final */}
-        <section className="py-16 bg-gradient-to-r from-green-600 to-emerald-600 -mx-2 sm:-mx-6 lg:-mx-8">
+        <section className="py-16 bg-green-600 -mx-2 sm:-mx-6 lg:-mx-8">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="bg-white rounded-2xl p-8 shadow-2xl">
+            <div className="bg-white rounded-2xl p-8">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Nuestra recomendación final
               </h2>
@@ -1179,7 +1179,7 @@ export default function DepiladoraIPLZafiro() {
                 href={lumeor_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-sm hover:shadow-md transform hover:scale-105"
                 onClick={() => trackClick("lumeor_bottom_page")}
               >
                 Ver el LUXE K en el sitio oficial →

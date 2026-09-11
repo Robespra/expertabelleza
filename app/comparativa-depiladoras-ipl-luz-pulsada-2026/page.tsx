@@ -175,7 +175,7 @@ export default function DepiladoreIPLComparativa() {
           {/* #1 Product - lumeor Pulse Pro II */}
           <a
             href={decoratedlumeorUrl}
-            className="block bg-white rounded-2xl shadow-xl p-2 sm:!p-6 border-4 relative overflow-hidden hover:shadow-2xl transition-all duration-300"
+            className="block bg-white rounded-2xl shadow-sm p-2 sm:!p-6 border-4 relative overflow-hidden transition-all duration-300"
           >
             <div
               className="absolute top-0 right-0 !bg-yellow-300 !text-black px-6 py-2 rounded-bl-2xl"
@@ -186,7 +186,7 @@ export default function DepiladoreIPLComparativa() {
 
             <div className="grid md:grid-cols-5 gap-8 items-center">
               <div className="flex justify-center order-1 md:order-2 md:col-span-2">
-                <div style={{ background: 'linear-gradient(145deg, #F9CDE0 0%, #fdebf3 100%)' }} className="p-6 rounded-2xl">
+                <div style={{ backgroundColor: '#FBDCE9' }} className="p-6 rounded-2xl">
                   <Image
                     width={350}
                     height={450}
@@ -215,7 +215,7 @@ export default function DepiladoreIPLComparativa() {
                   <span className="text-gray-600 font-medium">4,8/5 • 2.847 opiniones</span>
                 </div>
 
-                <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 mb-6">
+                <div className="bg-green-50 rounded-xl p-6 mb-6">
                   <h4 className="font-bold text-green-800 mb-3 text-lg">✨ Por qué es nuestra #1:</h4>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -224,7 +224,7 @@ export default function DepiladoreIPLComparativa() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2 font-bold">•</span>
-                      <span className="text-gray-700"><strong>Relación calidad-precio:</strong> En oferta ahora, 79€ en lugar de 142€, ¡envío premium incluido!</span>
+                      <span className="text-gray-700"><strong>Relación calidad-precio:</strong> En oferta ahora, 89€ en lugar de 142€, ¡envío premium incluido!</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2 font-bold">•</span>
@@ -239,7 +239,7 @@ export default function DepiladoreIPLComparativa() {
 
                 <div className="grid grid-cols-3 gap-4 mb-6">
                   <div className="text-center bg-gray-50 rounded-lg p-4">
-                    <div className="text-green-600 font-bold text-2xl">79€</div>
+                    <div className="text-green-600 font-bold text-2xl">89€</div>
                     <div className="text-gray-400 text-sm line-through">142€</div>
                     <div className="text-gray-600 text-sm">Precio</div>
                   </div>
@@ -285,7 +285,7 @@ export default function DepiladoreIPLComparativa() {
                 <ul className="space-y-3">
                   {[
                     "Resultados probados : Nota excepcional de 4,8/5 basada en más de 1.000 opiniones, con resultados impresionantes confirmados en nuestras pruebas.",
-                    "Rentable : Precio habitual de 142€, actualmente disponible por solo 79€ (-44%). La solución de reducción del vello más asequible que hemos probado.",
+                    "Rentable : Precio habitual de 142€, actualmente disponible por solo 89€ (-37%). La solución de reducción del vello más asequible que hemos probado.",
                     "Resultados rápidos : Reducción notable del vello corporal tras pocas sesiones, resultados completos en menos de 12 usos.",
                     "Efecto garantizado : Seguro y eficaz en la mayoría de tonos de piel y combinaciones de color de vello.",
                     "Práctico : Depilación de cuerpo entero en solo 5-10 minutos, una vez a la semana. Olvídate de las costosas sesiones en centro de estética.",
@@ -333,7 +333,7 @@ export default function DepiladoreIPLComparativa() {
             </div>
 
             {/* User Testimonial */}
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-lg p-6 mb-6">
+            <div className="bg-green-50 rounded-lg p-6 mb-6">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-green-200 rounded-full flex items-center justify-center text-green-800 font-bold text-lg">M</div>
                 <div>
@@ -353,7 +353,7 @@ export default function DepiladoreIPLComparativa() {
             </div>
 
             {/* Screen Benefits Section */}
-            <div className="bg-gradient-to-r from-green-100 to-emerald-100 rounded-2xl p-8 mb-6">
+            <div className="bg-green-100 rounded-2xl p-8 mb-6">
               <h4 className="text-xl font-bold text-gray-900 mb-6 text-center">Ventaja exclusiva: Pantalla LCD inteligente</h4>
               <p className="text-gray-700 mb-6 text-center">
                 El Pulse Pro II es el único de nuestra selección que integra una pantalla LCD profesional. Esta diferencia tecnológica
@@ -381,7 +381,7 @@ export default function DepiladoreIPLComparativa() {
                 href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block !bg-yellow-400 hover:!bg-yellow-300 !text-black font-bold py-3 px-8 rounded-full transition-colors shadow-lg hover:shadow-xl"
+                className="inline-block !bg-yellow-400 hover:!bg-yellow-300 !text-black font-bold py-3 px-8 rounded-full transition-colors shadow-sm hover:shadow-md"
                 style={{ backgroundColor: '#FBBF24', color: '#000000' }}
                 onClick={() => {
                   if (typeof window !== 'undefined' && window.gtag) {
@@ -401,7 +401,7 @@ export default function DepiladoreIPLComparativa() {
           {/* Other Products - Grid Layout */}
           <div className="grid lg:grid-cols-2 gap-8">
             {/* #2 Product - Loop by Solippy */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Loop by Solippy</h3>
                 <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-bold">#2</span>
@@ -427,7 +427,7 @@ export default function DepiladoreIPLComparativa() {
               <p className="text-gray-600 mb-4 text-sm">
                 El Loop by Solippy se ha consolidado como una referencia de gama media gracias a su diseño
                 cuidado y su eficaz comunicación en redes sociales. Sólido, aunque a 199€ y con
-                solo 300.000 destellos, no justifica su precio premium frente al Pulse Pro II a 79€.
+                solo 300.000 destellos, no justifica su precio premium frente al Pulse Pro II a 89€.
               </p>
               <div className="grid grid-cols-3 gap-2 mb-4 text-xs">
                 <div className="text-center bg-gray-50 rounded p-2">
@@ -455,7 +455,7 @@ export default function DepiladoreIPLComparativa() {
                 El Loop by Solippy se ha convertido en poco tiempo en una marca reconocida en la depilación
                 de luz pulsada en casa, impulsada por una estrategia de contenido en redes sociales eficaz y
                 un diseño muy cuidado. Su posicionamiento de gama media a 199€ resulta atractivo sobre el papel,
-                pero frente al Pulse Pro II a 79€ con 990K destellos y resultados desde las 2 semanas, la
+                pero frente al Pulse Pro II a 89€ con 990K destellos y resultados desde las 2 semanas, la
                 diferencia de valor es difícil de ignorar.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -486,7 +486,7 @@ export default function DepiladoreIPLComparativa() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Precio 2× superior : 199€ frente a 79€ del Pulse Pro II, para resultados equivalentes o inferiores.",
+                      "Precio 2× superior : 199€ frente a 89€ del Pulse Pro II, para resultados equivalentes o inferiores.",
                       "Destellos limitados : Solo 300.000 destellos frente a 990.000 del Pulse Pro II, vida útil mucho menor.",
                       "Resultados más lentos : 6 a 8 semanas frente a 2 semanas para los primeros resultados con el Pulse Pro II.",
                       "Sin tecnología diferenciadora : Sin enfriamiento por zafiro ni pantalla LCD avanzada.",
@@ -509,7 +509,7 @@ export default function DepiladoreIPLComparativa() {
             </div>
 
             {/* #3 Product - Bodysiam Elite */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Bodysiam Elite</h3>
                 <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-bold">#3</span>
@@ -536,11 +536,11 @@ export default function DepiladoreIPLComparativa() {
               <p className="text-gray-600 mb-4 text-sm">
                 Bodysiam apuesta por el segmento "depilación profesional en casa" con un packaging
                 de lujo y un acabado cuidado. Los resultados están presentes pero tardan (8-10 semanas),
-                y su precio de 179€ es difícil de justificar frente al Pulse Pro II a 79€.
+                y su precio de 189€ es difícil de justificar frente al Pulse Pro II a 89€.
               </p>
               <div className="grid grid-cols-3 gap-2 mb-4 text-xs">
                 <div className="text-center bg-gray-50 rounded p-2">
-                  <div className="font-bold text-teal-600">179€</div>
+                  <div className="font-bold text-teal-600">189€</div>
                   <div className="text-gray-500">Precio</div>
                 </div>
                 <div className="text-center bg-gray-50 rounded p-2">
@@ -564,8 +564,8 @@ export default function DepiladoreIPLComparativa() {
                 Bodysiam posiciona su Elite en el segmento "profesional en casa" con un
                 packaging de lujo y una comunicación de gama alta. El producto cumple sus promesas
                 básicas (reducción visible del vello en 8 a 10 semanas), pero sin tecnología
-                diferenciadora (sin zafiro, sin pantalla LCD), su precio de 179€ es difícil de
-                defender frente al Pulse Pro II a 79€, que ofrece resultados desde las 2 semanas.
+                diferenciadora (sin zafiro, sin pantalla LCD), su precio de 189€ es difícil de
+                defender frente al Pulse Pro II a 89€, que ofrece resultados desde las 2 semanas.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -595,7 +595,7 @@ export default function DepiladoreIPLComparativa() {
                   <ul className="space-y-3">
                     {[
                       "Resultados lentos : 8 a 10 semanas frente a 2 semanas del Pulse Pro II, protocolo desalentador.",
-                      "Precio no justificado : 179€ para resultados equivalentes a un aparato de 79€ con más destellos.",
+                      "Precio no justificado : 189€ para resultados equivalentes a un aparato de 89€ con más destellos.",
                       "Sin tecnología diferenciadora : Ni enfriamiento por zafiro, ni pantalla LCD, ni sensor de piel.",
                       "Reputación limitada : Solo ~180 opiniones, difícil evaluar la fiabilidad a largo plazo."
                     ].map((disadvantage, index) => {
@@ -616,7 +616,7 @@ export default function DepiladoreIPLComparativa() {
             </div>
 
             {/* #4 Product - Braun Silk Expert Pro 5 */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Braun Silk Expert Pro 5</h3>
                 <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-bold">#4</span>
@@ -724,7 +724,7 @@ export default function DepiladoreIPLComparativa() {
             </div>
 
             {/* #5 Product - Philips Lumea IPL 9000 */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Philips Lumea IPL 9000</h3>
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-bold">#5</span>
@@ -832,7 +832,7 @@ export default function DepiladoreIPLComparativa() {
             </div>
 
             {/* #6 Product - Ulike Sapphire IPL */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Ulike Sapphire IPL</h3>
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-bold">#6</span>
@@ -880,7 +880,7 @@ export default function DepiladoreIPLComparativa() {
             </div>
 
             {/* #7 Product - no!no! Pro IPL */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">no!no! Pro IPL</h3>
                 <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold">#7</span>
@@ -1059,7 +1059,7 @@ export default function DepiladoreIPLComparativa() {
 
             <div className="overflow-x-auto mb-12">
               <table className="w-full bg-white rounded-2xl shadow-lg overflow-hidden">
-                <thead className="bg-gradient-to-r from-green-600 to-emerald-600 text-white">
+                <thead className="bg-green-600 text-white">
                   <tr>
                     <th className="px-6 py-4 text-left">Modelo</th>
                     <th className="px-6 py-4 text-center">Precio</th>
@@ -1097,7 +1097,7 @@ export default function DepiladoreIPLComparativa() {
                       </div>
                     </td>
                     <td className="px-6 py-4 text-center">
-                      <div className="font-bold text-green-600">79€</div>
+                      <div className="font-bold text-green-600">89€</div>
                       <div className="text-xs text-gray-400 line-through">142€</div>
                     </td>
                     <td className="px-6 py-4 text-center">
@@ -1137,7 +1137,7 @@ export default function DepiladoreIPLComparativa() {
                         </div>
                       </div>
                     </td>
-                    <td className="px-6 py-4 text-center font-bold">179€</td>
+                    <td className="px-6 py-4 text-center font-bold">189€</td>
                     <td className="px-6 py-4 text-center">
                       <div className="font-bold text-teal-600">3,6/5</div>
                       <div className="text-yellow-400">★★★⭐☆</div>
@@ -1229,7 +1229,7 @@ export default function DepiladoreIPLComparativa() {
         </section>
 
         {/* IPL Technology Section */}
-        <section className="py-16 bg-gradient-to-b from-blue-50 to-indigo-50">
+        <section className="py-16 bg-blue-50">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -1318,7 +1318,7 @@ export default function DepiladoreIPLComparativa() {
                     </tr>
                     <tr>
                       <td className="px-6 py-4 font-medium text-gray-900">Coste total</td>
-                      <td className="px-6 py-4 text-center text-blue-600 font-semibold">79€ (una vez)</td>
+                      <td className="px-6 py-4 text-center text-blue-600 font-semibold">89€ (una vez)</td>
                       <td className="px-6 py-4 text-center text-gray-500">300€/año</td>
                       <td className="px-6 py-4 text-center text-gray-500">200€/año</td>
                       <td className="px-6 py-4 text-center text-gray-500">500€/año</td>
@@ -1422,7 +1422,7 @@ export default function DepiladoreIPLComparativa() {
               {/* Hidropulsadores Guide */}
               <Link
                 href="/comparativa-hidropulsadores-dentales-2026"
-                className="group bg-gradient-to-br from-blue-50 to-sky-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border-2 border-blue-100 hover:border-blue-300"
+                className="group bg-blue-50 rounded-2xl p-6 transition-all duration-300 border-2 border-blue-100 hover:border-blue-300"
               >
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center text-3xl">
@@ -1446,7 +1446,7 @@ export default function DepiladoreIPLComparativa() {
               {/* LED Mask Guide */}
               <Link
                 href="/mascarilla-led-facial-2026"
-                className="group bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border-2 border-purple-100 hover:border-purple-300"
+                className="group bg-purple-50 rounded-2xl p-6 transition-all duration-300 border-2 border-purple-100 hover:border-purple-300"
               >
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center text-3xl">
@@ -1470,7 +1470,7 @@ export default function DepiladoreIPLComparativa() {
               {/* Return to Homepage */}
               <Link
                 href="/"
-                className="group bg-gradient-to-br from-gray-50 to-green-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border-2 border-gray-200 hover:border-green-300 md:col-span-2"
+                className="group bg-gray-50 rounded-2xl p-6 transition-all duration-300 border-2 border-gray-200 hover:border-green-300 md:col-span-2"
               >
                 <div className="flex items-center justify-center space-x-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center text-3xl">
@@ -1492,9 +1492,9 @@ export default function DepiladoreIPLComparativa() {
         </section>
 
         {/* Final CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-green-600 to-emerald-600">
+        <section className="py-16 bg-green-600">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="bg-white rounded-2xl p-8 shadow-2xl">
+            <div className="bg-white rounded-2xl p-8 shadow-sm">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Nuestra Recomendación Final
               </h2>
@@ -1506,7 +1506,7 @@ export default function DepiladoreIPLComparativa() {
               <div className="bg-green-50 rounded-xl p-6 mb-6">
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-green-600 mb-2">79€</div>
+                    <div className="text-3xl font-bold text-green-600 mb-2">89€</div>
                     <div className="text-sm text-gray-600">Precio excepcional<br/>(-37% actualmente)</div>
                   </div>
                   <div>
@@ -1530,7 +1530,7 @@ export default function DepiladoreIPLComparativa() {
                 href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-sm hover:shadow-md transform hover:scale-105"
                 onClick={() => {
                   if (typeof window !== 'undefined' && window.gtag) {
                     window.gtag('event', 'click', {

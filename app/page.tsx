@@ -64,7 +64,7 @@ export default function Home() {
                 alt="Experta en belleza y bienestar"
                 width={400}
                 height={400}
-                className="rounded-2xl shadow-2xl"
+                className="rounded-2xl shadow-sm"
               />
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function Home() {
       {/* Experts Section */}
       <section className="bg-gray-50 py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12">
+          <div className="bg-white rounded-2xl shadow-sm p-8 lg:p-12">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-4">
@@ -112,7 +112,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-lg p-8 lg:p-12 mt-8">
+          <div className="bg-white rounded-2xl shadow-sm p-8 lg:p-12 mt-8">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="text-center lg:text-left">
                 <div className="flex items-center justify-center lg:justify-start mb-4">
@@ -158,7 +158,6 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
               Nuestras guías de referencia
-              <span className="block w-16 h-1 bg-[#2ba283] mx-auto mt-4 rounded" />
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Análisis en profundidad basados en meses de tests para ayudarte a tomar la mejor decisión
@@ -167,12 +166,12 @@ export default function Home() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             {/* Depiladoras IPL 2026 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-yellow-400">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border-2 border-yellow-400">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_header2026.jpg" alt="Comparativa depiladoras de luz pulsada IPL 2026" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-gradient-to-r from-yellow-400 to-orange-500 text-black px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
+                  <span className="bg-yellow-500 text-black px-3 py-2 rounded-full text-sm font-bold">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Depiladoras de Luz Pulsada IPL 2026</h3>
@@ -188,25 +187,25 @@ export default function Home() {
                   <div className="flex text-yellow-400 mr-2">{"★★★★★".split("").map((s, i) => <span key={i} className="text-lg">{s}</span>)}</div>
                   <span className="text-sm text-gray-500">Guía 2026</span>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Nueva edición 2026 con las últimas innovaciones en depilación de luz pulsada IPL. Reducción duradera del vello corporal en casa desde 79€.</p>
+                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Nueva edición 2026 con las últimas innovaciones en depilación de luz pulsada IPL. Reducción duradera del vello corporal en casa desde 89€.</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">2026</div><div className="text-gray-500">Edición</div></div>
-                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 79€</div><div className="text-gray-500">Precio</div></div>
+                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 89€</div><div className="text-gray-500">Precio</div></div>
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">✓</div><div className="text-gray-500">Disponible</div></div>
                 </div>
-                <Link href="/comparativa-depiladoras-ipl-luz-pulsada-2026" className="block w-full bg-gradient-to-r from-yellow-400 to-orange-500 text-black text-center py-4 rounded-xl font-bold hover:from-yellow-500 hover:to-orange-600 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
+                <Link href="/comparativa-depiladoras-ipl-luz-pulsada-2026" className="block w-full bg-yellow-500 text-black text-center py-4 rounded-xl font-bold hover:bg-yellow-600 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
                   Ver la guía 2026 →
                 </Link>
               </div>
             </article>
 
             {/* Hidropulsadores Dentales 2026 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-cyan-400">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border-2 border-cyan-400">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/JetDentaireComparison-main.jpg" alt="Comparativa hidropulsadores dentales 2026" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-gradient-to-r from-cyan-400 to-blue-500 text-white px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
+                  <span className="bg-cyan-500 text-white px-3 py-2 rounded-full text-sm font-bold">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Hidropulsadores Dentales 2026</h3>
@@ -228,19 +227,19 @@ export default function Home() {
                   <div className="text-center"><div className="text-blue-600 font-semibold">Desde 49€</div><div className="text-gray-500">Precio</div></div>
                   <div className="text-center"><div className="text-blue-600 font-semibold">✓</div><div className="text-gray-500">Disponible</div></div>
                 </div>
-                <Link href="/comparativa-hidropulsadores-dentales-2026" className="block w-full bg-gradient-to-r from-cyan-400 to-blue-500 text-white text-center py-4 rounded-xl font-bold hover:from-cyan-500 hover:to-blue-600 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
+                <Link href="/comparativa-hidropulsadores-dentales-2026" className="block w-full bg-cyan-500 text-white text-center py-4 rounded-xl font-bold hover:bg-cyan-600 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
                   Ver la guía 2026 →
                 </Link>
               </div>
             </article>
 
             {/* Mascarillas LED 2026 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-purple-400">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border-2 border-purple-400">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/ledMask.png" alt="Comparativa mascarillas LED fototerapia 2026" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-gradient-to-r from-purple-400 to-fuchsia-500 text-white px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
+                  <span className="bg-purple-500 text-white px-3 py-2 rounded-full text-sm font-bold">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Mascarillas LED 2026</h3>
@@ -262,19 +261,19 @@ export default function Home() {
                   <div className="text-center"><div className="text-purple-600 font-semibold">Nuevo</div><div className="text-gray-500">Contenido</div></div>
                   <div className="text-center"><div className="text-purple-600 font-semibold">✓</div><div className="text-gray-500">Disponible</div></div>
                 </div>
-                <Link href="/mascarilla-led-facial-2026" className="block w-full bg-gradient-to-r from-purple-400 to-fuchsia-500 text-white text-center py-4 rounded-xl font-bold hover:from-purple-500 hover:to-fuchsia-600 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
+                <Link href="/mascarilla-led-facial-2026" className="block w-full bg-purple-500 text-white text-center py-4 rounded-xl font-bold hover:bg-purple-600 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
                   Ver la guía 2026 →
                 </Link>
               </div>
             </article>
 
             {/* Depiladora IPL Zafiro */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-green-400">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border-2 border-green-400">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_header2026.jpg" alt="Comparativa depiladoras de luz pulsada IPL zafiro 2026" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
+                  <span className="bg-green-600 text-white px-3 py-2 rounded-full text-sm font-bold">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Depiladoras de Luz Pulsada IPL Zafiro 2026</h3>
@@ -290,25 +289,25 @@ export default function Home() {
                   <div className="flex text-yellow-400 mr-2">{"★★★★★".split("").map((s, i) => <span key={i} className="text-lg">{s}</span>)}</div>
                   <span className="text-sm text-gray-500">Guía 2026</span>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Comparativa de depiladoras de luz pulsada IPL con tecnología de enfriamiento por zafiro — las molestias reducidas a la mitad. ¿Qué aparato elegir para la mejor relación calidad/precio?</p>
+                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Comparativa de depiladoras de luz pulsada IPL con tecnología de enfriamiento por zafiro, con las molestias reducidas a la mitad. ¿Qué aparato elegir para la mejor relación calidad/precio?</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
                   <div className="text-center"><div className="text-green-600 font-semibold">Zafiro</div><div className="text-gray-500">Tecnología</div></div>
                   <div className="text-center"><div className="text-green-600 font-semibold">139€</div><div className="text-gray-500">Desde</div></div>
                   <div className="text-center"><div className="text-green-600 font-semibold">✓</div><div className="text-gray-500">Disponible</div></div>
                 </div>
-                <Link href="/depiladora-ipl-zafiro-2026" className="block w-full bg-gradient-to-r from-green-500 to-emerald-600 text-white text-center py-4 rounded-xl font-bold hover:from-green-600 hover:to-emerald-700 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
+                <Link href="/depiladora-ipl-zafiro-2026" className="block w-full bg-green-600 text-white text-center py-4 rounded-xl font-bold hover:bg-green-700 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
                   Ver la guía zafiro →
                 </Link>
               </div>
             </article>
 
             {/* Depiladora IPL Hombre */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border-2 border-blue-500">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border-2 border-blue-500">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_men_header2026.jpg" alt="Comparativa depiladoras de luz pulsada IPL hombre 2026" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-3 py-2 rounded-full text-sm font-bold shadow-lg">NUEVO 2026</span>
+                  <span className="bg-blue-600 text-white px-3 py-2 rounded-full text-sm font-bold">NUEVO 2026</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Depiladora de Luz Pulsada IPL Hombre 2026</h3>
@@ -324,25 +323,25 @@ export default function Home() {
                   <div className="flex text-yellow-400 mr-2">{"★★★★★".split("").map((s, i) => <span key={i} className="text-lg">{s}</span>)}</div>
                   <span className="text-sm text-gray-500">Guía 2026</span>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Pecho, espalda, piernas, contorno de barba — comparativa de las mejores depiladoras de luz pulsada IPL para hombre. Dos recomendaciones según tu presupuesto.</p>
+                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Pecho, espalda, piernas, contorno de barba: comparativa de las mejores depiladoras de luz pulsada IPL para hombre. Dos recomendaciones según tu presupuesto.</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
                   <div className="text-center"><div className="text-blue-600 font-semibold">Hombre</div><div className="text-gray-500">Específico</div></div>
-                  <div className="text-center"><div className="text-blue-600 font-semibold">79€</div><div className="text-gray-500">Desde</div></div>
+                  <div className="text-center"><div className="text-blue-600 font-semibold">89€</div><div className="text-gray-500">Desde</div></div>
                   <div className="text-center"><div className="text-blue-600 font-semibold">✓</div><div className="text-gray-500">Disponible</div></div>
                 </div>
-                <Link href="/depiladora-ipl-hombre-2026" className="block w-full bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center py-4 rounded-xl font-bold hover:from-blue-600 hover:to-indigo-700 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
+                <Link href="/depiladora-ipl-hombre-2026" className="block w-full bg-blue-600 text-white text-center py-4 rounded-xl font-bold hover:bg-blue-700 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
                   Ver la guía hombre →
                 </Link>
               </div>
             </article>
 
             {/* Depiladoras IPL 2025 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border border-gray-100">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparatif_epilateurs_header.jpg" alt="Comparativa depiladoras de luz pulsada IPL 2025" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-[#2ba283] text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">Guía 2025</span>
+                  <span className="bg-[#2ba283] text-white px-3 py-2 rounded-full text-sm font-semibold">Guía 2025</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Depiladoras de Luz Pulsada IPL 2025</h3>
@@ -360,7 +359,7 @@ export default function Home() {
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Descubre nuestra selección de las mejores depiladoras de luz pulsada IPL. Tests comparativos rigurosos y resultados probados para reducción duradera del vello en casa.</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
-                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 79€</div><div className="text-gray-500">Precio mín.</div></div>
+                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 89€</div><div className="text-gray-500">Precio mín.</div></div>
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">3 semanas</div><div className="text-gray-500">Primeros resultados</div></div>
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">100%</div><div className="text-gray-500">Probadas</div></div>
                 </div>
@@ -371,12 +370,12 @@ export default function Home() {
             </article>
 
             {/* Hidropulsadores Dentales 2025 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border border-gray-100">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/comparateur_epilateur_auteure.jpg" alt="Comparativa hidropulsadores dentales 2025" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-blue-600 text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">Guía 2025</span>
+                  <span className="bg-blue-600 text-white px-3 py-2 rounded-full text-sm font-semibold">Guía 2025</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Hidropulsadores Dentales 2025</h3>
@@ -405,12 +404,12 @@ export default function Home() {
             </article>
 
             {/* Mascarillas LED 2025 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border border-gray-100">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/ledMask.png" alt="Comparativa mascarillas LED fototerapia 2025" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-purple-600 text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">Guía 2025</span>
+                  <span className="bg-purple-600 text-white px-3 py-2 rounded-full text-sm font-semibold">Guía 2025</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Mascarillas LED 2025</h3>
@@ -439,12 +438,12 @@ export default function Home() {
             </article>
 
             {/* Maquinillas Hombre 2025 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border border-gray-100">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/tondeusesHomme.avif" alt="Comparativa maquinillas pelo barba hombre 2025" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-orange-600 text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">Guía 2025</span>
+                  <span className="bg-orange-600 text-white px-3 py-2 rounded-full text-sm font-semibold">Guía 2025</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Maquinillas Hombre 2025</h3>
@@ -473,12 +472,12 @@ export default function Home() {
             </article>
 
             {/* Cuidado Capilar 2025 */}
-            <article className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 overflow-hidden border border-gray-100">
+            <article className="group bg-white rounded-2xl shadow-sm transition-all duration-500 overflow-hidden border border-gray-100">
               <div className="relative h-64 overflow-hidden">
                 <Image fill className="object-cover group-hover:scale-110 transition-transform duration-500" src="/images/soinsCheveux.avif" alt="Comparativa aparatos cuidado capilar peluquería" />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-black/40" />
                 <div className="absolute top-4 left-4">
-                  <span className="bg-pink-600 text-white px-3 py-2 rounded-full text-sm font-semibold shadow-lg">Guía 2025</span>
+                  <span className="bg-pink-600 text-white px-3 py-2 rounded-full text-sm font-semibold">Guía 2025</span>
                 </div>
                 <div className="absolute bottom-6 left-6 right-6">
                   <h3 className="text-2xl font-bold text-white mb-2">Cuidado Capilar 2025</h3>
@@ -516,7 +515,6 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
               Nuestro método de prueba
-              <span className="block w-16 h-1 bg-[#2ba283] mx-auto mt-4 rounded" />
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Un enfoque científico para recomendaciones fiables
@@ -524,21 +522,21 @@ export default function Home() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center group">
-              <div className="w-20 h-20 bg-gradient-to-br from-[#2ba283] to-[#238a6b] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+              <div className="w-20 h-20 bg-[#2ba283] rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 <span className="text-white text-3xl">🔬</span>
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900">Tests rigurosos</h3>
               <p className="text-gray-600 leading-relaxed">6 meses de uso intensivo, mediciones objetivas y protocolos científicos validados por expertas independientes.</p>
             </div>
             <div className="text-center group">
-              <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+              <div className="w-20 h-20 bg-blue-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 <span className="text-white text-3xl">💰</span>
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900">Precios analizados</h3>
               <p className="text-gray-600 leading-relaxed">Comparación exhaustiva de precios, análisis de promociones y evaluación de la relación calidad-precio óptima.</p>
             </div>
             <div className="text-center group">
-              <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300 shadow-lg">
+              <div className="w-20 h-20 bg-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                 <span className="text-white text-3xl">✓</span>
               </div>
               <h3 className="text-xl font-bold mb-4 text-gray-900">Opiniones auténticas</h3>

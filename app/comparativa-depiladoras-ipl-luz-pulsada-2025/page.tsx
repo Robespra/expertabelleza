@@ -84,10 +84,10 @@ export default function DepiladoraIPL2025() {
           </h1>
 
           <div className="bg-yellow-50 border-l-4 border-yellow-400 rounded-xl p-6 mb-8">
-            <p className="text-gray-800 font-medium mb-2">Guía de 2025 — contenido desactualizado</p>
+            <p className="text-gray-800 font-medium mb-2">Guía de 2025: contenido desactualizado</p>
             <p className="text-gray-600 text-sm mb-4">
               Esta comparativa corresponde a la edición 2025. Nuestra guía 2026 incluye nuevos modelos probados,
-              precios actualizados y el lumeor Pulse Pro II como elección #1 a 79€.
+              precios actualizados y el lumeor Pulse Pro II como elección #1 a 89€.
             </p>
             <Link
               href="/comparativa-depiladoras-ipl-luz-pulsada-2026"
@@ -147,7 +147,7 @@ export default function DepiladoraIPL2025() {
                     <span key={star} className="text-yellow-400">★</span>
                   ))}
                 </div>
-                <p className="text-gray-600 text-sm mb-3">4,8/5 · 2.847 valoraciones verificadas · 79€</p>
+                <p className="text-gray-600 text-sm mb-3">4,8/5 · 2.847 valoraciones verificadas · 89€</p>
                 <a
                   href={decoratedlumeorUrl}
                   target="_blank"
@@ -171,7 +171,7 @@ export default function DepiladoraIPL2025() {
         </section>
 
         {/* CTA to updated version */}
-        <section className="py-12 bg-gradient-to-r from-green-600 to-emerald-600 rounded-2xl text-center mb-8">
+        <section className="py-12 bg-green-600 rounded-2xl text-center mb-8">
           <div className="px-8">
             <h2 className="text-2xl font-bold text-white mb-4">
               ¿Buscas la guía más actualizada?
@@ -181,7 +181,7 @@ export default function DepiladoraIPL2025() {
             </p>
             <Link
               href="/comparativa-depiladoras-ipl-luz-pulsada-2026"
-              className="inline-block bg-white text-green-700 font-bold py-4 px-10 rounded-full text-lg transition-all hover:shadow-xl hover:scale-105"
+              className="inline-block bg-white text-green-700 font-bold py-4 px-10 rounded-full text-lg transition-all hover:shadow-md hover:scale-105"
             >
               Ver la comparativa IPL 2026 →
             </Link>

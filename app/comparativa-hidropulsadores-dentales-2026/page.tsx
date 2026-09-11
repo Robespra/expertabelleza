@@ -201,7 +201,7 @@ export default function HidropulsadorDentalComparativa() {
           {/* #1 Product - LyraX Pro */}
           <a
             href={decoratedlumeorUrl}
-            className="block bg-white rounded-2xl shadow-xl p-8 mb-8 border-4 border-blue-600 relative overflow-hidden hover:shadow-2xl hover:border-blue-700 transition-all duration-300"
+            className="block bg-white rounded-2xl shadow-sm p-8 mb-8 border-4 border-blue-600 relative overflow-hidden hover:border-blue-700 transition-all duration-300"
           >
             <div className="absolute top-0 right-0 bg-blue-600 text-white px-6 py-2 rounded-bl-2xl">
               <span className="font-bold text-lg">#1 ELECCIÓN EXPERTA</span>
@@ -238,7 +238,7 @@ export default function HidropulsadorDentalComparativa() {
                   <span className="text-gray-600 font-medium">4,8/5 • 2.847 valoraciones</span>
                 </div>
 
-                <div className="bg-gradient-to-r from-blue-50 to-sky-50 rounded-xl p-6 mb-6">
+                <div className="bg-blue-50 rounded-xl p-6 mb-6">
                   <h4 className="font-bold text-blue-800 mb-3 text-lg">Por qué es nuestro #1:</h4>
                   <ul className="space-y-2">
                     <li className="flex items-start">
@@ -352,7 +352,7 @@ export default function HidropulsadorDentalComparativa() {
             </div>
 
             {/* User Testimonial */}
-            <div className="bg-gradient-to-r from-blue-50 to-sky-50 rounded-lg p-6 mb-6">
+            <div className="bg-blue-50 rounded-lg p-6 mb-6">
               <div className="flex items-start space-x-4">
                 <div className="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center text-blue-800 font-bold text-lg">M</div>
                 <div>
@@ -376,7 +376,7 @@ export default function HidropulsadorDentalComparativa() {
                 href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors shadow-lg hover:shadow-xl"
+                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full transition-colors shadow-sm hover:shadow-md"
                 onClick={() => {
                   if (typeof window !== 'undefined' && window.gtag) {
                     window.gtag('event', 'click', {
@@ -395,7 +395,7 @@ export default function HidropulsadorDentalComparativa() {
           {/* Other Products - Grid Layout */}
           <div className="grid lg:grid-cols-2 gap-8">
             {/* #2 Product - Oral B Hydropulseur */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Oral B Hidropulsador</h3>
                 <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-bold">#2</span>
@@ -502,7 +502,7 @@ export default function HidropulsadorDentalComparativa() {
             </div>
 
             {/* #3 Product - Waterpik Blue Advanced */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Waterpik Blue Advanced</h3>
                 <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-bold">#3</span>
@@ -610,7 +610,7 @@ export default function HidropulsadorDentalComparativa() {
             </div>
 
             {/* #4 Product - Phillips Power Flosser 3000 */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">Philips Power Flosser 3000</h3>
                 <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-bold">#4</span>
@@ -658,7 +658,7 @@ export default function HidropulsadorDentalComparativa() {
             </div>
 
             {/* #5 Product - WellaWhite */}
-            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 hover:shadow-xl transition-shadow">
+            <div className="bg-white rounded-2xl shadow-lg p-6 border-2 border-gray-200 transition-shadow">
               <div className="flex items-center justify-between mb-4">
                 <h3 className="text-2xl font-bold text-gray-900">WellaWhite Hidropulsador</h3>
                 <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-bold">#5</span>
@@ -837,7 +837,7 @@ export default function HidropulsadorDentalComparativa() {
 
             <div className="overflow-x-auto mb-12">
               <table className="w-full bg-white rounded-2xl shadow-lg overflow-hidden">
-                <thead className="bg-gradient-to-r from-blue-600 to-sky-600 text-white">
+                <thead className="bg-blue-600 text-white">
                   <tr>
                     <th className="px-6 py-4 text-left">Modelo</th>
                     <th className="px-6 py-4 text-center">Precio</th>
@@ -1070,7 +1070,7 @@ export default function HidropulsadorDentalComparativa() {
               {/* IPL Guide */}
               <Link
                 href="/comparativa-depiladoras-ipl-luz-pulsada-2026"
-                className="group bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border-2 border-green-100 hover:border-green-300"
+                className="group bg-green-50 rounded-2xl p-6 transition-all duration-300 border-2 border-green-100 hover:border-green-300"
               >
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-green-600 rounded-xl flex items-center justify-center text-3xl">
@@ -1081,7 +1081,7 @@ export default function HidropulsadorDentalComparativa() {
                       Mejores Depiladoras de Luz Pulsada IPL 2026
                     </h3>
                     <p className="text-gray-600 mb-3 text-sm">
-                      Reducción del vello con IPL eficaz en casa. Nuestra comparativa completa de las mejores depiladoras de luz pulsada desde 79€.
+                      Reducción del vello con IPL eficaz en casa. Nuestra comparativa completa de las mejores depiladoras de luz pulsada desde 89€.
                     </p>
                     <div className="flex items-center text-green-600 font-medium text-sm">
                       <span>Ver la guía completa</span>
@@ -1094,7 +1094,7 @@ export default function HidropulsadorDentalComparativa() {
               {/* LED Mask Guide */}
               <Link
                 href="/mascarilla-led-facial-2026"
-                className="group bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border-2 border-purple-100 hover:border-purple-300"
+                className="group bg-purple-50 rounded-2xl p-6 transition-all duration-300 border-2 border-purple-100 hover:border-purple-300"
               >
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-purple-600 rounded-xl flex items-center justify-center text-3xl">
@@ -1118,7 +1118,7 @@ export default function HidropulsadorDentalComparativa() {
               {/* Return to Homepage */}
               <Link
                 href="/"
-                className="group bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-6 hover:shadow-xl transition-all duration-300 border-2 border-gray-200 hover:border-blue-300 md:col-span-2"
+                className="group bg-gray-50 rounded-2xl p-6 transition-all duration-300 border-2 border-gray-200 hover:border-blue-300 md:col-span-2"
               >
                 <div className="flex items-center justify-center space-x-4">
                   <div className="flex-shrink-0 w-16 h-16 bg-blue-600 rounded-xl flex items-center justify-center text-3xl">
@@ -1140,9 +1140,9 @@ export default function HidropulsadorDentalComparativa() {
         </section>
 
         {/* Final CTA Section */}
-        <section className="py-16 bg-gradient-to-r from-blue-600 to-sky-600">
+        <section className="py-16 bg-blue-600">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="bg-white rounded-2xl p-8 shadow-2xl">
+            <div className="bg-white rounded-2xl p-8 shadow-sm">
               <h2 className="text-3xl font-bold text-gray-900 mb-4">
                 Nuestra recomendación final
               </h2>
@@ -1178,7 +1178,7 @@ export default function HidropulsadorDentalComparativa() {
                 href={decoratedlumeorUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-10 rounded-full text-xl transition-all duration-300 shadow-sm hover:shadow-md transform hover:scale-105"
                 onClick={() => {
                   if (typeof window !== 'undefined' && window.gtag) {
                     window.gtag('event', 'click', {
