@@ -187,10 +187,10 @@ export default function Home() {
                   <div className="flex text-yellow-400 mr-2">{"★★★★★".split("").map((s, i) => <span key={i} className="text-lg">{s}</span>)}</div>
                   <span className="text-sm text-gray-500">Guía 2026</span>
                 </div>
-                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Nueva edición 2026 con las últimas innovaciones en depilación de luz pulsada IPL. Reducción duradera del vello corporal en casa desde 89€.</p>
+                <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Nueva edición 2026 con las últimas innovaciones en depilación de luz pulsada IPL. Reducción duradera del vello corporal en casa desde 79€.</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">2026</div><div className="text-gray-500">Edición</div></div>
-                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 89€</div><div className="text-gray-500">Precio</div></div>
+                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 79€</div><div className="text-gray-500">Precio</div></div>
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">✓</div><div className="text-gray-500">Disponible</div></div>
                 </div>
                 <Link href="/comparativa-depiladoras-ipl-luz-pulsada-2026" className="block w-full bg-yellow-500 text-black text-center py-4 rounded-xl font-bold hover:bg-yellow-600 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
@@ -326,7 +326,7 @@ export default function Home() {
                 <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Pecho, espalda, piernas, contorno de barba: comparativa de las mejores depiladoras de luz pulsada IPL para hombre. Dos recomendaciones según tu presupuesto.</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
                   <div className="text-center"><div className="text-blue-600 font-semibold">Hombre</div><div className="text-gray-500">Específico</div></div>
-                  <div className="text-center"><div className="text-blue-600 font-semibold">89€</div><div className="text-gray-500">Desde</div></div>
+                  <div className="text-center"><div className="text-blue-600 font-semibold">79€</div><div className="text-gray-500">Desde</div></div>
                   <div className="text-center"><div className="text-blue-600 font-semibold">✓</div><div className="text-gray-500">Disponible</div></div>
                 </div>
                 <Link href="/depiladora-ipl-hombre-2026" className="block w-full bg-blue-600 text-white text-center py-4 rounded-xl font-bold hover:bg-blue-700 transition-all duration-300 transform hover:-translate-y-1 mt-auto">
@@ -359,7 +359,7 @@ export default function Home() {
                 </div>
                 <p className="text-gray-600 mb-6 leading-relaxed flex-grow">Descubre nuestra selección de las mejores depiladoras de luz pulsada IPL. Tests comparativos rigurosos y resultados probados para reducción duradera del vello en casa.</p>
                 <div className="grid grid-cols-3 gap-4 mb-6 text-sm">
-                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 89€</div><div className="text-gray-500">Precio mín.</div></div>
+                  <div className="text-center"><div className="text-[#2ba283] font-semibold">Desde 79€</div><div className="text-gray-500">Precio mín.</div></div>
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">3 semanas</div><div className="text-gray-500">Primeros resultados</div></div>
                   <div className="text-center"><div className="text-[#2ba283] font-semibold">100%</div><div className="text-gray-500">Probadas</div></div>
                 </div>

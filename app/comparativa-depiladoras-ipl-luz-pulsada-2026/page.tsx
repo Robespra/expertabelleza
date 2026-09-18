@@ -224,7 +224,7 @@ export default function DepiladoreIPLComparativa() {
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2 font-bold">•</span>
-                      <span className="text-gray-700"><strong>Relación calidad-precio:</strong> En oferta ahora, 89€ en lugar de 142€, ¡envío premium incluido!</span>
+                      <span className="text-gray-700"><strong>Relación calidad-precio:</strong> En oferta ahora, 79€ en lugar de 142€, ¡envío premium incluido!</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-green-600 mr-2 font-bold">•</span>
@@ -239,7 +239,7 @@ export default function DepiladoreIPLComparativa() {
 
                 <div className="grid grid-cols-3 gap-4 mb-6">
                   <div className="text-center bg-gray-50 rounded-lg p-4">
-                    <div className="text-green-600 font-bold text-2xl">89€</div>
+                    <div className="text-green-600 font-bold text-2xl">79€</div>
                     <div className="text-gray-400 text-sm line-through">142€</div>
                     <div className="text-gray-600 text-sm">Precio</div>
                   </div>
@@ -285,7 +285,7 @@ export default function DepiladoreIPLComparativa() {
                 <ul className="space-y-3">
                   {[
                     "Resultados probados : Nota excepcional de 4,8/5 basada en más de 1.000 opiniones, con resultados impresionantes confirmados en nuestras pruebas.",
-                    "Rentable : Precio habitual de 142€, actualmente disponible por solo 89€ (-37%). La solución de reducción del vello más asequible que hemos probado.",
+                    "Rentable : Precio habitual de 142€, actualmente disponible por solo 79€ (-44%). La solución de reducción del vello más asequible que hemos probado.",
                     "Resultados rápidos : Reducción notable del vello corporal tras pocas sesiones, resultados completos en menos de 12 usos.",
                     "Efecto garantizado : Seguro y eficaz en la mayoría de tonos de piel y combinaciones de color de vello.",
                     "Práctico : Depilación de cuerpo entero en solo 5-10 minutos, una vez a la semana. Olvídate de las costosas sesiones en centro de estética.",
@@ -427,7 +427,7 @@ export default function DepiladoreIPLComparativa() {
               <p className="text-gray-600 mb-4 text-sm">
                 El Loop by Solippy se ha consolidado como una referencia de gama media gracias a su diseño
                 cuidado y su eficaz comunicación en redes sociales. Sólido, aunque a 199€ y con
-                solo 300.000 destellos, no justifica su precio premium frente al Pulse Pro II a 89€.
+                solo 300.000 destellos, no justifica su precio premium frente al Pulse Pro II a 79€.
               </p>
               <div className="grid grid-cols-3 gap-2 mb-4 text-xs">
                 <div className="text-center bg-gray-50 rounded p-2">
@@ -455,7 +455,7 @@ export default function DepiladoreIPLComparativa() {
                 El Loop by Solippy se ha convertido en poco tiempo en una marca reconocida en la depilación
                 de luz pulsada en casa, impulsada por una estrategia de contenido en redes sociales eficaz y
                 un diseño muy cuidado. Su posicionamiento de gama media a 199€ resulta atractivo sobre el papel,
-                pero frente al Pulse Pro II a 89€ con 990K destellos y resultados desde las 2 semanas, la
+                pero frente al Pulse Pro II a 79€ con 990K destellos y resultados desde las 2 semanas, la
                 diferencia de valor es difícil de ignorar.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
@@ -486,7 +486,7 @@ export default function DepiladoreIPLComparativa() {
                   <h4 className="text-lg font-semibold text-red-800 mb-4">✗ Inconvenientes</h4>
                   <ul className="space-y-3">
                     {[
-                      "Precio 2× superior : 199€ frente a 89€ del Pulse Pro II, para resultados equivalentes o inferiores.",
+                      "Precio 2× superior : 199€ frente a 79€ del Pulse Pro II, para resultados equivalentes o inferiores.",
                       "Destellos limitados : Solo 300.000 destellos frente a 990.000 del Pulse Pro II, vida útil mucho menor.",
                       "Resultados más lentos : 6 a 8 semanas frente a 2 semanas para los primeros resultados con el Pulse Pro II.",
                       "Sin tecnología diferenciadora : Sin enfriamiento por zafiro ni pantalla LCD avanzada.",
@@ -536,7 +536,7 @@ export default function DepiladoreIPLComparativa() {
               <p className="text-gray-600 mb-4 text-sm">
                 Bodysiam apuesta por el segmento "depilación profesional en casa" con un packaging
                 de lujo y un acabado cuidado. Los resultados están presentes pero tardan (8-10 semanas),
-                y su precio de 189€ es difícil de justificar frente al Pulse Pro II a 89€.
+                y su precio de 189€ es difícil de justificar frente al Pulse Pro II a 79€.
               </p>
               <div className="grid grid-cols-3 gap-2 mb-4 text-xs">
                 <div className="text-center bg-gray-50 rounded p-2">
@@ -565,7 +565,7 @@ export default function DepiladoreIPLComparativa() {
                 packaging de lujo y una comunicación de gama alta. El producto cumple sus promesas
                 básicas (reducción visible del vello en 8 a 10 semanas), pero sin tecnología
                 diferenciadora (sin zafiro, sin pantalla LCD), su precio de 189€ es difícil de
-                defender frente al Pulse Pro II a 89€, que ofrece resultados desde las 2 semanas.
+                defender frente al Pulse Pro II a 79€, que ofrece resultados desde las 2 semanas.
               </p>
               <div className="grid md:grid-cols-2 gap-8">
                 <div>
@@ -595,7 +595,7 @@ export default function DepiladoreIPLComparativa() {
                   <ul className="space-y-3">
                     {[
                       "Resultados lentos : 8 a 10 semanas frente a 2 semanas del Pulse Pro II, protocolo desalentador.",
-                      "Precio no justificado : 189€ para resultados equivalentes a un aparato de 89€ con más destellos.",
+                      "Precio no justificado : 189€ para resultados equivalentes a un aparato de 79€ con más destellos.",
                       "Sin tecnología diferenciadora : Ni enfriamiento por zafiro, ni pantalla LCD, ni sensor de piel.",
                       "Reputación limitada : Solo ~180 opiniones, difícil evaluar la fiabilidad a largo plazo."
                     ].map((disadvantage, index) => {
@@ -1097,7 +1097,7 @@ export default function DepiladoreIPLComparativa() {
                       </div>
                     </td>
                     <td className="px-6 py-4 text-center">
-                      <div className="font-bold text-green-600">89€</div>
+                      <div className="font-bold text-green-600">79€</div>
                       <div className="text-xs text-gray-400 line-through">142€</div>
                     </td>
                     <td className="px-6 py-4 text-center">
@@ -1318,7 +1318,7 @@ export default function DepiladoreIPLComparativa() {
                     </tr>
                     <tr>
                       <td className="px-6 py-4 font-medium text-gray-900">Coste total</td>
-                      <td className="px-6 py-4 text-center text-blue-600 font-semibold">89€ (una vez)</td>
+                      <td className="px-6 py-4 text-center text-blue-600 font-semibold">79€ (una vez)</td>
                       <td className="px-6 py-4 text-center text-gray-500">300€/año</td>
                       <td className="px-6 py-4 text-center text-gray-500">200€/año</td>
                       <td className="px-6 py-4 text-center text-gray-500">500€/año</td>
@@ -1506,8 +1506,8 @@ export default function DepiladoreIPLComparativa() {
               <div className="bg-green-50 rounded-xl p-6 mb-6">
                 <div className="grid md:grid-cols-3 gap-6 text-center">
                   <div>
-                    <div className="text-3xl font-bold text-green-600 mb-2">89€</div>
-                    <div className="text-sm text-gray-600">Precio excepcional<br/>(-37% actualmente)</div>
+                    <div className="text-3xl font-bold text-green-600 mb-2">79€</div>
+                    <div className="text-sm text-gray-600">Precio excepcional<br/>(-44% actualmente)</div>
                   </div>
                   <div>
                     <div className="text-3xl font-bold text-green-600 mb-2">4,8/5</div>
